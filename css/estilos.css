@@ -71,7 +71,7 @@ div li .select{
 
 
 div .bloque1{
-    padding: 60px;
+    padding: 40px;
 }
 
 .bloque1 h1{
@@ -87,7 +87,7 @@ div .bloque1{
 }
 
 div .bloque2{
-    margin: 60px;
+    margin: 40px;
 }
 
 .bloque2 .col{
@@ -117,7 +117,7 @@ div .bloque2{
 
 .quees{
     color: black;
-    padding: 60px;
+    padding: 40px;
 }
 
 .quees h1{
@@ -132,7 +132,7 @@ div .bloque2{
 }
 
 .etapas{
-    padding: 60px;
+    padding: 40px;
     background-color: #D2D9E0;
     color: black;
 }
@@ -181,7 +181,7 @@ div .bloque2{
 }
 
 div .docs1{
-    padding: 60px;
+    padding: 40px;
     color: black;
 }
 
@@ -202,8 +202,8 @@ div .docs1{
 }
 
 .buttondocs1 {
-    padding-left: 60px;
-    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-bottom: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }
@@ -218,7 +218,7 @@ div .docs1{
 }
 
 div .docs2{
-    padding: 60px;
+    padding: 40px;
     color: black;
 }
 
@@ -239,8 +239,8 @@ div .docs2{
 }
 
 .buttondocs2 {
-    margin-left: 60px;
-    padding-bottom: 60px;
+    margin-left: 40px;
+    padding-bottom: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }
@@ -292,7 +292,7 @@ div .accordion{
 }
 
 div .dudas{
-    padding: 60px;
+    padding: 40px;
 }
 .dudas h1{
     display: flex;
@@ -330,7 +330,7 @@ div .button{
 
 div .honorarios{
     color: black;
-    padding: 60px;
+    padding: 40px;
 }
 
 .honorarios h2{
@@ -353,7 +353,7 @@ div .honorarios{
 div .gastos{
     background-color: #D2D9E0;
     color: black;
-    padding: 60px;
+    padding: 40px;
 }
 
 .gastos h2{
@@ -375,7 +375,7 @@ div .gastos{
 
 div .pago{
     color: black;
-    padding: 60px;
+    padding: 40px;
 }
 
 .pago h2{
@@ -401,7 +401,7 @@ div .pago{
 
 div .contacto{
     color: black;
-    padding: 60px;
+    padding: 40px;
 }
 
 .contacto h1{
