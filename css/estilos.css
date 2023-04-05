@@ -70,7 +70,7 @@ div li .select{
 
 
 
-.bloque1{
+div .bloque1{
     padding: 60px;
 }
 
@@ -86,8 +86,8 @@ div li .select{
     margin-top: 30px;
 }
 
-.bloque2{
-    padding: 60px;
+div .bloque2{
+    margin: 60px;
 }
 
 .bloque2 .col{
