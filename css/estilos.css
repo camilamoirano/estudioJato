@@ -8,9 +8,13 @@
     box-sizing: 0;
 }
 
-div .navegacion{
-    background-color: white;
-    margin: 20px;
+body{
+    overflow-x: hidden;
+}
+
+
+.navegacion a{
+    color: red ;
 }
 .letra a{
     color: #0C3872;
@@ -38,167 +42,424 @@ div li .select{
     font-size: 1rem;
 }
 
-.presentation img{
+
+
+.content img{
     width: 100%;
     height: 40%;
 }
 
-.presentation img:hover{
-    transform:scale(1.1)
-}
 
 .content{
-    margin-bottom: 150px;
+    background-color: #D2D9E0;
 }
 
 .content h1{
-    margin-top: 60px;
-    margin-left: 30px;
     color: black;
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
 }
 
+
 .content p{
-    margin: 30px;
     color: black;
     font-family: 'Raleway', serif;
     font-weight: 400;
     font-size: 1.2rem;
 }
+
+
+
+.bloque1{
+    padding: 60px;
+}
+
+.bloque1 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    
+}
+
+.bloque1 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.bloque2{
+    padding: 60px;
+}
+
+.bloque2 .col{
+    margin-top: 30px;
+}
+
+.bloque2 h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+}
+
+.bloque2 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    color: black;
+}
+
+.bloque2 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;    
+}
+
+
+.imgsucesiones img{
+    width: 100%;
+}
+
+.quees{
+    color: black;
+    padding: 60px;
+}
+
+.quees h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+}
+
+.quees p{
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+.etapas{
+    padding: 60px;
+    background-color: #D2D9E0;
+    color: black;
+}
+
+.etapas h1{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+
+.etapas h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.etapas p{
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    
+}
+
+.documentacion{
+    padding: 30px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.documentacion .card{
+    background-color: #082746;
+}
+
+.documentacion h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.documentacion p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.documentacion a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+div .docs1{
+    padding: 60px;
+    color: black;
+}
+
+.docs1 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+}
+
+.docs1 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.docs1 ul{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.buttondocs1 {
+    padding-left: 60px;
+    padding-bottom: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+.buttondocs1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.buttondocs1 a:hover{
+    color: white;
+}
+
+div .docs2{
+    padding: 60px;
+    color: black;
+}
+
+.docs2 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+}
+
+.docs2 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.docs2 ul{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.buttondocs2 {
+    padding-left: 60px;
+    padding-bottom: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+.buttondocs2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.buttondocs2 a:hover{
+    color: white;
+}
+
+
+.pregs img{
+    width: 100%;
+}
+
+
+
+.pregs h1{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
 div .accordion{
-    margin: 40px;
+    padding: 30px;
     color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
-.sucesiones{
-    font-family: 'Playfair Display', serif;
-    margin: 30px;
-    font-weight: 400;
-    margin-bottom: 100px;
-}
-
-.sucesiones h1{
-    color: black;
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-}
-
-
-.sucesiones h2{
-    margin-top: 50px;
-    color: black;
-    font-size: 1.8rem;
-}
-
-.sucesiones .doc{
-    margin-top: 50px;
-    font-size: 1.5rem;
-}
-
-.sucesiones p{
-    font-size: 1.1rem;
-    font-family: 'Raleway', serif;
-    color: black;
-}
-
-.sucesiones ul li{
-    font-size: 1rem;
-    list-style: none;
-    font-family: 'Raleway', serif;
-}
-
 
 .accordion button{
-    font-family: 'Raleway', serif;   
+    font-family: 'Raleway', sans-serif;   
     font-weight: 500;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .accordion-collapse{
-    background-color:aliceblue;
+    background-color:white;
 }
 
 .accordion-body{
     font-size: 1.2rem;
-    color: #0C3872;
-}
-
-div .financiacion{
-    margin-bottom: 50px ;
-}
-
-.financiacion h1{
-    margin-top: 60px;
-    margin-left: 30px;
     color: black;
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
 }
 
-.financiacion h2{
-    margin-top: 50px;
-    margin-left: 30px;
+div .dudas{
+    padding: 60px;
+}
+.dudas h1{
+    display: flex;
+    justify-content: center;
+}
+
+.dudas p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+}
+
+div .button{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.button a:hover{
     color: black;
-    font-size: 1.8rem;
-    font-family: 'Playfair Display', serif;
+    font-weight: 500;
 }
 
-.financiacion p{
-    font-size: 1.1rem;
-    font-family: 'Raleway', serif;
+.imgfinanciacion img{
+    width: 100%;
+}
+
+div .honorarios{
     color: black;
-    margin-left: 30px;
+    padding: 60px;
 }
 
-.financiacion li{
-    margin-left: 30px;
+.honorarios h2{
+    font-family: 'Payfair Display', serif ;
+    font-size: 2.5rem;
 }
 
+.honorarios p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+}
+
+.honorarios li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    list-style: none;
+    margin: 10px;
+}
+
+div .gastos{
+    background-color: #D2D9E0;
+    color: black;
+    padding: 60px;
+}
+
+.gastos h2{
+    font-family: 'Payfair Display', serif ;
+    font-size: 2.5rem;
+}
+
+.gastos p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+}
+
+.gastos li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    list-style: none;
+    margin: 10px;
+}
+
+div .pago{
+    color: black;
+    padding: 60px;
+}
+
+.pago h2{
+    font-family: 'Payfair Display', serif ;
+    font-size: 2.5rem;
+}
+
+.pago p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+}
+
+.pago li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    list-style: none;
+    margin: 10px;
+}
+
+.imgcontacto img{
+    width: 100%;
+}
+
+div .contacto{
+    color: black;
+    padding: 60px;
+}
 
 .contacto h1{
-    margin-top: 60px;
-    margin-left: 30px;
-    color: black;
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 .contacto ul li{
     list-style: none;
     margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
 }
 
 .contacto p{
-    font-size: 1.1rem;
-    font-family: 'Raleway', serif;
-    color: black;
-    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
 }
 
 .contacto iframe{
-    margin-left: 30px;
-    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
-footer .fin{
-    margin-top: 50px;
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: black;
 }
 
 footer{
-    background-color: white;
-    color: #0C3872;
+    background-color: #D2D9E0;
+    color: black;
     font-size: 0.9rem;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+}
+
+footer .col{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: black;
+}
+
+footer .menuabajo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 footer p:hover{
@@ -212,17 +473,23 @@ footer p:hover{
 
 
 .foot{
-    background-color: #0C3872;
+    background-color: #082746;
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
     margin-bottom: 0;
     padding: 10px;
 }
 
-.foot:hover{
-    background-color: white;
-    color: #0C3872;
+.foot1{
+    font-size: 0.8rem;
+    font-family: 'Playfair Display' , serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #082746;
+    margin-bottom: 0;
+    padding: 10px;
 }
