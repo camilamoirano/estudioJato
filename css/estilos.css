@@ -39,14 +39,26 @@ div li .select{
     font-size: 1rem;
 }
 
-.presentacion{
-    padding-top: 50px;
-    padding-bottom: 30px;
-    background-color: #D2D9E0;
+.bloque1{
+    padding: 20px;
+}
+.bloque1 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    margin-bottom: 30px;   
 }
 
+.bloque1 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+   
+}
+
+
 .bloque1s{
-    padding-top: 70px ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../assets/fondo.jpg");
 }
 
 .bloque1s img{
@@ -67,24 +79,11 @@ div li .select{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 1.2rem;
-    color: black;
-    margin-bottom: 50px;
-}
-
-.bloque1 h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 2.3rem;
-    margin-bottom: 30px;   
-}
-
-.bloque1 p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    
+    color: white;
 }
 
 div .bloque2{
-    margin: 40px;
+    padding: 20px;
 }
 
 .bloque2 .col{
@@ -118,7 +117,7 @@ div .bloque2{
 
 .quees{
     color: black;
-    padding: 40px;
+    padding: 20px;
 }
 
 .quees h1{
@@ -132,14 +131,8 @@ div .bloque2{
     font-size: 1.2rem;
 }
 
-.quees i{
-    font-family: 'Raleway', sans-serif;
-    display: flex;
-    justify-content: end;
-}
-
 .etapas{
-    padding: 40px;
+    padding: 20px;
     background-color: #D2D9E0;
     color: black;
 }
@@ -177,7 +170,7 @@ div .bloque2{
 
 
 .planificacion{
-    padding: 40px;
+    padding: 20px;
     color: black;
 }
 
@@ -220,6 +213,12 @@ div .bloque2{
     color: white;
 }
 
+.legitima{
+    background-image: url("../assets/presi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .legitima .card{
     padding: 10px;
     color: #082746;
@@ -232,8 +231,6 @@ div .bloque2{
 }
 
 .documentacion{
-    padding: 30px;
-    color: white;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -244,15 +241,13 @@ div .bloque2{
     padding: 10px;
 }
 .documentacion .card{
-    padding: 25px;
+    padding: 10px;
     margin: 10px;
-    background-color:#D2D9E0;
+    
     color: black;
-}
-
-.documentacion .card:hover{
-    background-color:#082746;
-    color: white;
+    background-image: url("../assets/presi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .documentacion h5{
@@ -272,12 +267,15 @@ div .bloque2{
 }
 
 div .docs1{
-    padding: 40px;
-    color: white;
+    padding: 20px;
+    color: black;
+    padding-top: 40px;
 }
 
 body .docs1{
-    background-image: url("../assets/fondo.jpg");
+    background-image: url("../assets/presi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .docs1 h1{
@@ -297,35 +295,42 @@ body .docs1{
 }
 
 .buttondocs1 {
-    padding-left: 40px;
     padding-bottom: 40px;
     padding-top: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttondocs1 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .buttondocs1 a:hover{
-    color: black;   
+    text-decoration: none;
+    color: white;
 }
 
+
 div .docs2{
-    padding: 40px;
+    padding: 20px;
     color: black;
 }
 
 body .docs2{
-    background-image: url("../assets/fondo.jpg");
-    color: white;
+    background-image: url("../assets/presi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
 }
 
 .docs2 h1{
     font-family: 'Playfair Display', serif;
     font-size: 2.3rem;
+    padding-top: 20px;
 }
 
 .docs2 p{
@@ -351,11 +356,11 @@ body .docs2{
     color: white;
 }
 
-.buttondocs2 a:hover{
-    color: black;
+
+
+.pregs .container{
+    padding-top: 20px;
 }
-
-
 .pregs img{
     width: 100%;
 }
@@ -369,7 +374,7 @@ body .docs2{
 .accordion{
     width: 100%;
     background: transparent;
-    padding: 30px;
+    padding: 10px;
     color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -385,14 +390,7 @@ body .docs2{
     background: #D2D9E0;
     font-size: 1.3rem;
 }
-
-
-
-
-
  
-
-
 .accordion button{
     font-family: 'Raleway', sans-serif;   
     font-weight: 500;
@@ -401,25 +399,40 @@ body .docs2{
 }
 
 .accordion-collapse{
-    background-color:white;
+    color:pink;
+}
+
+.accordion button{
+    color:#D2D9E0;
+    background:#082746;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.1);
 }
 
 .accordion-body{
+    color:#082746;
+    background-color: #D2D9E0;
     font-size: 1.2rem;
-    color: black;
 }
 
 div .dudas{
-    padding: 40px;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .dudas h1{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .dudas p{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
 }
@@ -430,8 +443,10 @@ div .dudas{
 
 div .honorarios{
     color: black;
-    padding: 40px;
-    background-color: #D2D9E0;
+    padding: 20px;
+    background-image: url("../assets/presi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .honorarios h2{
@@ -455,7 +470,7 @@ div .honorarios{
 
 div .gastos{
     color: black;
-    padding: 40px;
+    padding: 20px;
 }
 
 
@@ -487,8 +502,15 @@ div .gastos{
 
 div .pago{
     color: black;
-    padding: 40px;
+    padding: 20px;
     background-image: url("../assets/fondo.jpg");
+}
+
+.pago .card{
+    width: 80%;
+    display: flex;
+    align-content: center;
+    margin: auto;
 }
 
 .pago h2{
@@ -501,6 +523,9 @@ div .pago{
     font-size: 1.3rem;
 }
  
+.pago p:hover{
+    transform: scale(1.2);
+}
 .imgcontacto img{
     width: 100%;
 }
@@ -515,12 +540,15 @@ div .pago{
 
 div .contacto{
     color: black;
-    padding: 40px;
+    padding: 20px;
+    background-image: url("../assets/presi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.contacto h1{
+.contacto b{
     font-family: 'Playfair Display', serif;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
 }
 
 .contacto ul li{
@@ -538,7 +566,10 @@ div .contacto{
 
 .contacto iframe{
     margin-top: 30px;
-    width: auto;
+    height: 400px;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 footer a{
@@ -553,8 +584,8 @@ footer a:hover{
 footer{
     background-color: #D2D9E0;
     color: black;
-    font-size: 1.1rem;
-    padding: 30px;
+    font-size: 1rem;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -595,4 +626,5 @@ footer p:hover{
     margin-bottom: 0;
     padding: 10px;
 }
+
 
