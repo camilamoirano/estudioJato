@@ -92,6 +92,7 @@ div .bloque2{
 
 .bloque2 .col{
     margin-top: 30px;
+    
 }
 
 .bloque2 h5{
@@ -103,6 +104,7 @@ div .bloque2{
     background-color:#082746;
     color: white;
 }
+
 .bloque2 h1{
     font-family: 'Playfair Display', serif;
     font-size: 2.3rem;
@@ -227,8 +229,9 @@ div .bloque2{
     padding: 10px;
     color: #082746;
     background-color:#D2D9E0;
-    width: 450px;
-
+    width: 100%;
+    background-color: rgba(211, 201, 201, 0);
+    
 }
 
 .instrumentos .card-body:hover{
@@ -517,6 +520,7 @@ div .pago{
     display: flex;
     align-content: center;
     margin: auto;
+    background-color: #f1f1f1;
 }
 
 .pago h2{
