@@ -2,20 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
 
+
 body{
     overflow-x: hidden;
 }
 
-
-.navegacion a{
-    color: red ;
-}
 .letra a{
     color: #0C3872;
     font-family: 'Playfair Display', serif;
@@ -28,7 +26,6 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 1.1rem;
     font-weight: 400;
-
 }
 
 .letra li a:hover{
@@ -42,48 +39,48 @@ div li .select{
     font-size: 1rem;
 }
 
-
-
-.content img{
-    width: 100%;
-    height: 40%;
-}
-
-
-.content{
+.presentacion{
+    padding-top: 50px;
+    padding-bottom: 30px;
     background-color: #D2D9E0;
 }
 
-.content h1{
-    color: black;
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+.bloque1s{
+    padding-top: 70px ;
 }
 
+.bloque1s img{
+    height: 140px;
+    width: 140px;
+    margin: 10px;
+    border-radius: 50%;
+}
 
-.content p{
-    color: black;
-    font-family: 'Raleway', serif;
+.bloque1s img:hover{
+    transform: scale(1.2);
+}
+
+.bloque1s p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 1.2rem;
-}
-
-
-
-div .bloque1{
-    padding: 40px;
+    color: black;
+    margin-bottom: 50px;
 }
 
 .bloque1 h1{
     font-family: 'Playfair Display', serif;
     font-size: 2.3rem;
-    
+    margin-bottom: 30px;   
 }
 
 .bloque1 p{
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
-    margin-top: 30px;
+    
 }
 
 div .bloque2{
@@ -99,6 +96,10 @@ div .bloque2{
     font-size: 1.3rem;
 }
 
+.bloque2 .card-body:hover{
+    background-color:#082746;
+    color: white;
+}
 .bloque2 h1{
     font-family: 'Playfair Display', serif;
     font-size: 2.3rem;
@@ -131,6 +132,12 @@ div .bloque2{
     font-size: 1.2rem;
 }
 
+.quees i{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: end;
+}
+
 .etapas{
     padding: 40px;
     background-color: #D2D9E0;
@@ -150,7 +157,78 @@ div .bloque2{
     margin-top: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
-    
+}
+
+
+
+.etapas h2:hover{
+    background-color: white;
+    color: #082746;
+}
+
+.etapas div:hover{
+    background-color: gray;
+    color: white;
+} 
+
+.plani{
+    background-color: #D2D9E0;
+}
+
+
+.planificacion{
+    padding: 40px;
+    color: black;
+}
+
+.planificacion h1{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.planificacion h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.planificacion p{
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+.planificacion ul{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.planificacion .plan{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.planificacion .title{
+    padding-top: 40px;
+}
+
+.planificacion .obj{
+    background-image: url("../assets/fondo.jpg");
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.legitima .card{
+    padding: 10px;
+    color: #082746;
+    background-color:#D2D9E0;
+}
+
+.instrumentos .card-body:hover{
+    background-color: gray;
+    color: white;
 }
 
 .documentacion{
@@ -160,8 +238,21 @@ div .bloque2{
     margin-bottom: 30px;
 }
 
+.documentacion .row{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
 .documentacion .card{
-    background-color: #082746;
+    padding: 25px;
+    margin: 10px;
+    background-color:#D2D9E0;
+    color: black;
+}
+
+.documentacion .card:hover{
+    background-color:#082746;
+    color: white;
 }
 
 .documentacion h5{
@@ -182,7 +273,11 @@ div .bloque2{
 
 div .docs1{
     padding: 40px;
-    color: black;
+    color: white;
+}
+
+body .docs1{
+    background-image: url("../assets/fondo.jpg");
 }
 
 .docs1 h1{
@@ -204,22 +299,28 @@ div .docs1{
 .buttondocs1 {
     padding-left: 40px;
     padding-bottom: 40px;
+    padding-top: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }
 
 .buttondocs1 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .buttondocs1 a:hover{
-    color: white;
+    color: black;   
 }
 
 div .docs2{
     padding: 40px;
     color: black;
+}
+
+body .docs2{
+    background-image: url("../assets/fondo.jpg");
+    color: white;
 }
 
 .docs2 h1{
@@ -247,11 +348,11 @@ div .docs2{
 
 .buttondocs2 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .buttondocs2 a:hover{
-    color: white;
+    color: black;
 }
 
 
@@ -259,20 +360,37 @@ div .docs2{
     width: 100%;
 }
 
-
-
 .pregs h1{
     color: black;
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
 }
 
-div .accordion{
+.accordion{
+    width: 100%;
+    background: transparent;
     padding: 30px;
     color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
+
+.accordion-item{
+    background:#D2D9E0;
+    border: none;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1),-2px -2px 8px rgba(0,0,0,0.1);
+}
+
+.accordion-body{
+    background: #D2D9E0;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+ 
 
 
 .accordion button{
@@ -306,24 +424,6 @@ div .dudas{
     font-size: 1.3rem;
 }
 
-div .button{
-    display: flex;
-    justify-content: center;
-    font-family: 'Raleway', sans-serif;
-}
-
-.button a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-
-}
-
-.button a:hover{
-    color: black;
-    font-weight: 500;
-}
-
 .imgfinanciacion img{
     width: 100%;
 }
@@ -331,11 +431,13 @@ div .button{
 div .honorarios{
     color: black;
     padding: 40px;
+    background-color: #D2D9E0;
 }
 
 .honorarios h2{
     font-family: 'Payfair Display', serif ;
     font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 
 .honorarios p{
@@ -350,15 +452,16 @@ div .honorarios{
     margin: 10px;
 }
 
+
 div .gastos{
-    background-color: #D2D9E0;
     color: black;
     padding: 40px;
 }
 
+
 .gastos h2{
     font-family: 'Payfair Display', serif ;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .gastos p{
@@ -373,9 +476,19 @@ div .gastos{
     margin: 10px;
 }
 
+.gastos .h1{
+    margin-bottom: 30px;
+    font-size: 2.3rem;
+}
+
+.gastos .tasa{
+    margin-top: 30px;
+}
+
 div .pago{
     color: black;
     padding: 40px;
+    background-image: url("../assets/fondo.jpg");
 }
 
 .pago h2{
@@ -387,17 +500,18 @@ div .pago{
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
 }
-
-.pago li{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
-    list-style: none;
-    margin: 10px;
-}
-
+ 
 .imgcontacto img{
     width: 100%;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 div .contacto{
     color: black;
@@ -439,7 +553,7 @@ footer a:hover{
 footer{
     background-color: #D2D9E0;
     color: black;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -472,25 +586,13 @@ footer p:hover{
     height: 25px;
 }
 
-
-.foot{
-    background-color: #082746;
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.1rem;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-    padding: 10px;
-}
-
 .foot1{
-    font-size: 0.8rem;
     font-family: 'Playfair Display' , serif;
     display: flex;
     justify-content: center;
-    color: white;
+    color:#D2D9E0;
     background-color: #082746;
     margin-bottom: 0;
     padding: 10px;
 }
+

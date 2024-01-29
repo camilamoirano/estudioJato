@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntas frecuentes</title>
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/style-wsp.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=1133192026" class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <div>
         <nav class="navbar navbar-expand-lg navegacion">
             <div class="container-fluid letra">
@@ -19,27 +24,30 @@
               <div class="collapse navbar-collapse letra" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Servicios
+                      SERVICIOS
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="sucesiones.html">Sucesiones</a></li>
-                      <li><a class="dropdown-item" href="planificacion.html">Planificación sucesoria</a></li>
+                      <li><a class="dropdown-item" href="sucesiones.html">SUCESIONES</a></li>
+                      <li><a class="dropdown-item" href="planificacion.html">PLANIFICACIÓN SUCESORIA</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link select" href="#">Preguntas frecuentes</a>
+                    <a class="nav-link select" href="#">PREGUNTAS FRECUENTES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="financiacion.html">Financiación</a>
+                    <a class="nav-link" href="financiacion.html">FINANCIACIÓN</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
                   </li>
                 </ul>
+                <span class="navbar-text">
+                  Estudio Jato & Asociados
+                </span>
               </div>
             </div>
           </nav>
@@ -48,273 +56,339 @@
       <div>
         <img src="../assets/preguntas.png" alt="">
       </div>
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              ¿Qué es una sucesión?
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Es un proceso judicial que se debe realizar con asistencia letrada para poder transmitir los bienes de una persona fallecida a sus herederos.</div>
+      <div class="container">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Dónde debe iniciarse el trámite sucesorio?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                  La sucesión en principio debe iniciarse en la jurisdicción donde ha fallecido el o la causante. Hay algunas excepciones cuando los bienes del causante se encuentran radicados en nuestro país.
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              ¿Dónde debe iniciarse el trámite sucesorio?
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">La sucesión en principio debe iniciarse en la jurisdicción donde ha fallecido el o la causante. Hay algunas excepciones cuando los bienes del causante se encuentran radicados en otro país.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              ¿Tengo un plazo para hacer la sucesión?
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">No. No existe plazo. Es recomendable iniciar para disponer de los bienes, garantía, vender, efectuar donaciones a tus futuros herederos o cualquier otro acto de disposición. hay que transcurrir el proceso hacerla lo antes posible ya que el fallecimiento posterior de alguno de los herederos podría dificultar la tramitación de la sucesión o la decisión sobre la partición de los bienes.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-              ¿Para que me sirve iniciar la sucesión?
-            </button>
-          </h2>
-          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">La sucesión nos sirve para poder disponer de los bienes, o dinero que le correspondía a nuestro padre, hermano, hijo. Sin la tramitación del proceso sucesorio no se puede vender, ni dar en garantía, ni donar.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-              ¿Quiénes son los herederos forzosos o legitimarios?
-            </button>
-          </h2>
-          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Los herederos forzosos, hoy llamados legitimarios, son los descendientes (hijos), los ascendientes (padre y madre) y el cónyuge (esposo o esposa). Son aquellos herederos a los que la ley les asigna la protección de la legitima (porción legal obligatoria)</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingSix">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-              ¿Qué es la porción legítima?
-            </button>
-          </h2>
-          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">La “legítima” es aquella porción mínima de la herencia que corresponde por ley a los herederos forzosos y de la cual no pueden ser privados.
-              La porción legítima de:
-              <ul>
-                <li>HIJOS: (descendientes) es de 2/3, la porción legítima.
-                </li>
-                Se puede disponer del 33% o 1/3 del total de los bienes.
-                <li>ESPOSO O ESPOSA, cónyuge supérstite es de la mita½ o sea el 50%.</li>
-                <li>PADRES (ascendientes) es de la mitad ½ , s o sea el 50%.</li>
-                Se puede disponer del 50% o 1/2 del total de los bienes.
-              </ul>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  ¿Tengo un plazo para hacer la sucesión?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  No. No existe plazo. Es recomendable iniciar para disponer de los viene, garantía, vender, efectuar donaciones a tus futuros herederos o cualquier otro acto de disposición. hay que transcurrir el proceso hacerla lo antes posible ya que el fallecimiento posterior de alguno de los herederos podría dificultar la tramitación de la sucesión o la decisión sobre la partición de los bienes.
+                </div>
               </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingSeven">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-              ¿Hereda algo el/la concubina del causante?
-            </button>
-          </h2>
-          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">No, la unión convivencial no otorga por sí misma vocación hereditaria. Solamente puede percibir un beneficio social como pensionado/a.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                  ¿Para qué me sirve iniciar la sucesión?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  La sucesión nos sirve para poder disponer de los bienes, o dinero que le correspondía a nuestro padre, hermano, hijo. Sin la tramitación del proceso sucesorio no se puede vender, ni dar en garantía, ni donar.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingEight">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-              ¿Se pueden conocer los inmuebles de una persona fallecida, antes de iniciar el trámite sucesorio?
-            </button>
-          </h2>
-          <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Sí, nuestro Estudio Jurídico puede gestionar como trámite previo a iniciar una sucesión el informe necesario ante el Registro de la Propiedad Inmueble.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                  ¿Quiénes son los herederos forzosos o legitimarios?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Los herederos forzosos, hoy llamados legitimarios, son los descendientes (hijos), los ascendientes (padre y madre) y el cónyuge (esposo o esposa). Son aquellos herederos a los que la ley les asigna la protección de la legítima (porción legal obligatoria).
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingNine">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-              ¿Puedo iniciar la sucesión si alguno de los herederos no quiere iniciarla?
-            </button>
-          </h2>
-          <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Sí, todos los herederos tienen derecho a iniciar el trámite sucesorio. Debe denunciarse la existencia de los otros herederos que se conozcan y citarlos al proceso sucesorio.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                  ¿Qué es la porción legítima?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  La “legítima” es aquella porción mínima de la herencia que corresponde por ley a los herederos forzosos y de la cual no pueden ser privados
+                  <p>La porción legítima de:
+                      <ul>
+                          <li>HIJOS (descendientes) es de 2/3, la porción legítima. Se puede disponer del 33% o 1/3 del total de los bienes.</li>
+                          <li> ESPOSO O ESPOSA, cónyuge supérstite es de la mitad ½ o sea el 50%.</li>
+                          <li>PADRES (ascendientes) es de la mitad ½ , s o sea el 50%. Se puede disponer del 50% o 1/2 del total de los bienes.</li>
+                      </ul>
+                  </p>
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTen">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
-              ¿Qué son los bienes gananciales?
-            </button>
-          </h2>
-          <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Son los bienes que forman parte de la sociedad conyugal, es decir adquiridos durante la vigencia del matrimonio del causante.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                  ¿Hereda algo el/la concubina del causante?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  No, la unión convivencial no otorga por sí misma vocación hereditaria. Solamente puede percibir un beneficio social como pensionado/a.
+                  <p><u>UNIÓN CONVIVENCIAL</u></p>
+                  <p>El/la conviviente no tiene legítima protegida por ley. Se la puede beneficiar con la disposición del 33% de los bienes mediante testamento.</p>
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingEleven">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
-              ¿Qué son los bienes propios en la sucesión?
-            </button>
-          </h2>
-          <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Son los bienes que posee cada cónyuge antes del matrimonio o los recibidos a título gratuito por herencia, legado o donación, estando casado, o bien adquiridos por fondos propios debidamente acreditados.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                  ¿Se pueden conocer los inmuebles de una persona fallecida, antes de iniciar el trámite sucesorio?
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sí, nuestro Estudio Jurídico puede gestionar como trámite previo a iniciar una sucesión el informe necesario ante el Registro de la Propiedad Inmueble.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwelve">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
-              ¿Tienen que estar todos los herederos de acuerdo para vender un inmueble de la sucesión?
-            </button>
-          </h2>
-          <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Sí, se debe obtener la conformidad de todos los herederos. Para el caso que no exista unanimidad, previa inscripción se puede pedir la venta forzada del inmueble efectuando la división del condominio. </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                  ¿Puedo iniciar la sucesión si alguno de los herederos no quiere iniciarla?
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sí, todos los herederos tienen derecho a iniciar el trámite sucesorio. Debe denunciarse la existencia de los otros herederos que se conozcan y citarlos al proceso sucesorio.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThirdteen">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirdteen" aria-expanded="false" aria-controls="flush-collapseThirdteen">
-              ¿Se puede iniciar un trámite sucesorio con el objeto de ceder o vender un solo bien, cuando hay otros bienes que fueron propiedad del causante?
-            </button>
-          </h2>
-          <div id="flush-collapseThirdteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirdteen" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body"> Sí, se pueden ir liberando los bienes que componen el acervo en diferentes momentos, a voluntad de los herederos si hay acuerdo de todos ellos, o de las hijuelas de cada uno si fueron adjudicadas.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                  ¿Qué son los bienes gananciales?
+                </button>
+              </h2>
+              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Son los bienes que forman parte de la sociedad conyugal, es decir adquiridos durante la vigencia del matrimonio del causante.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingFourteen">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
-              ¿Qué es la inscripción por tracto abreviado?
-            </button>
-          </h2>
-          <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body"> Es una técnica registral y se utiliza para vender un inmueble o un vehículo que era de propiedad del causante evitando la inscripción de los herederos como dueños en los respectivos registros, con lo cual se acortan los trámites sucesorios y se evitan mayores gastos de inscripción y/o escrituración. De esta manera, con el testimonio judicial sucesorio, la propiedad puede transferirse directamente al comprador.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                  ¿Qué son los bienes propios en la sucesión?
+                </button>
+              </h2>
+              <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Son los bienes que posee cada cónyuge antes del matrimonio o los recibidos a título gratuito por herencia, legado o donación, estando casado, o bien adquiridos por fondos propios debidamente acreditados.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingFifteen">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
-              ¿Qué se puede hacer si uno de los herederos ocupa un bien inmueble de propiedad de la persona fallecida?
-            </button>
-          </h2>
-          <div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body"> Los restantes herederos tienen derecho a solicitar el pago de un canon de alquiler, al heredero que está haciendo uso exclusivo del inmueble en beneficio propio y en desmedro del mismo derecho de los demás herederos, siempre en la proporción que le corresponde del acervo hereditario. </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                  ¿Tienen que estar todos los herederos de acuerdo para vender un inmueble de la sucesión?
+                </button>
+              </h2>
+              <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sí, se debe obtener la conformidad de todos los herederos. Para el caso que no exista unanimidad, previa inscripción se puede pedir la venta forzada del inmueble efectuando la división del condominio.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingSixteen">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
-              ¿Qué sucede si uno de los herederos forzosos recibió una donación del causante?
-            </button>
-          </h2>
-          <div id="flush-collapseSixteen" class="accordion-collapse collapse" aria-labelledby="flush-headingSixteen" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body"> La donación realizada a un heredero forzoso debe entenderse como un adelanto de la porción que a él le hubiera correspondido. Es necesario realizar un trámite judicial para que el Juez determine la parte de cada uno de los herederos descontando el valor de esa donación.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwelve">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                  ¿Se puede iniciar un trámite sucesorio con el objeto de ceder o vender un solo bien, cuando hay otros bienes que fueron propiedad del causante?
+                </button>
+              </h2>
+              <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sí, se pueden ir liberando los bienes que componen el acervo en diferentes momentos, a voluntad de los herederos si hay acuerdo de todos ellos, o de las hijuelas de cada uno si fueron adjudicadas.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingSeventeen">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeventeen" aria-expanded="false" aria-controls="flush-collapseSeventeen">
-              ¿Es posible tramitar dos sucesiones juntas?
-            </button>
-          </h2>
-          <div id="flush-collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="flush-headingSeventeen" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body"> Si, es posible, de dos o mas causantes. En la medida que haya relación en el traspaso de los bienes. Si se trata de los mismos bienes y primero murió la esposa y luego el esposo, los hijos del matrimonio pueden tramitar las dos sucesiones juntas, todo en un mismo expediente. Lo mismo si falleció primero la abuela, luego la madre, los hijos de la madre pueden iniciar el sucesorio de su abuela y madre en un solo expediente.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThirteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
+                  ¿Qué es la inscripción por tracto abreviado?
+                </button>
+              </h2>
+              <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Es una técnica registral y se utiliza para vender un inmueble o un vehículo que era de propiedad del causante evitando la inscripción de los herederos como dueños en los respectivos registros, con lo cual se acortan los trámites sucesorios y se evitan mayores gastos de inscripción y/o escrituración. De esta manera, con el testimonio judicial sucesorio, la propiedad puede transferirse directamente al comprador.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingEighteen">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEighteen" aria-expanded="false" aria-controls="flush-collapseEighteen">
-              ¿Los hijos matrimoniales heredan más que los extramatrimoniales?
-            </button>
-          </h2>
-          <div id="flush-collapseEighteen" class="accordion-collapse collapse" aria-labelledby="flush-headingEighteen" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">NO, todos los hijos heredan por igual, hayan nacido dentro de un matrimonio o no.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFourteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
+                  ¿Qué se puede hacer si uno de los herederos ocupa un bien inmueble de propiedad de la persona fallecida?
+                </button>
+              </h2>
+              <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Los restantes herederos tienen derecho a solicitar el pago de un canon de alquiler, al heredero que está haciendo uso exclusivo del inmueble en beneficio propio y en desmedro del mismo derecho de los demás herederos, siempre en la proporción que le corresponde del acervo hereditario.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingNineteen">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNineteen" aria-expanded="false" aria-controls="flush-collapseNineteen">
-              ¿Qué es una cesión de derechos y acciones hereditarias?
-            </button>
-          </h2>
-          <div id="flush-collapseNineteen" class="accordion-collapse collapse" aria-labelledby="flush-headingNineteen" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Es un contrato que se realiza por escritura pública por la cual un heredero cede a otro/s sus derechos sobre toda la herencia. No se puede realizar cesión de herencia sobre bien determinado.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFifteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
+                  ¿Qué sucede si uno de los herederos forzosos recibió una donación del causante?
+                </button>
+              </h2>
+              <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  La donación realizada a un heredero forzoso debe entenderse como un adelanto de la porción que a él le hubiera correspondido. Es necesario realizar un trámite judicial para que el Juez determine la parte de cada uno de los herederos descontando el valor de esa donación.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwenty">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwenty" aria-expanded="false" aria-controls="flush-collapseTwenty">
-              ¿El testamento evita tramitar un juicio sucesorio?
-            </button>
-          </h2>
-          <div id="flush-collapseTwenty" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">No, si una persona posee un testamento que fue dejado por la persona fallecida deberá iniciar igualmente una sucesión testamentaria.</div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSixteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
+                  ¿Qué sucede si uno de los herederos forzosos recibió una donación del causante?
+                </button>
+              </h2>
+              <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  La donación realizada a un heredero forzoso debe entenderse como un adelanto de la porción que a él le hubiera correspondido. Es necesario realizar un trámite judicial para que el Juez determine la parte de cada uno de los herederos descontando el valor de esa donación.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwentyOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyOne" aria-expanded="false" aria-controls="flush-collapseTwentyOne">
-              ¿Cuándo termina una sucesión?
-            </button>
-          </h2>
-          <div id="flush-collapseTwentyOne" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyOne" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">La sucesión termina con la inscripción de los bienes a favor de los herederos o de quien designes. El dictado de la declaratoria de herederos da por concluida la segunda de las etapas del sucesorio. Al inscribirse la misma o la partición en el Registro de la Propiedad y recibir Ud. el testimonio inscripto.
-            </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeventeen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="true" aria-controls="collapseSeventeen">
+                  ¿Es posible tramitar dos sucesiones juntas?
+                </button>
+              </h2>
+              <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Si, es posible, de dos o mas causantes. En la medida que haya relación en el traspaso de los bienes y los herederos. Si se trata de los mismos bienes y primero murió la esposa y luego el esposo, los hijos del matrimonio pueden tramitar las dos sucesiones juntas, todo en un mismo expediente. 
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwentyTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyTwo" aria-expanded="false" aria-controls="flush-collapseTwentyTwo">
-              ¿Qué es la declaratoria de herederos?
-            </button>
-          </h2>
-          <div id="flush-collapseTwentyTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyTwo" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">La declaratoria de herederos es la resolución que dicta el Juez después de haber vencido el plazo de la publicación de edictos, reconociendo el carácter de herederos a quienes se haya presentado y acreditado su vínculo con el fallecido.
-            </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEighteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen">
+                  ¿El testamento evita tramitar un juicio sucesorio?
+                </button>
+              </h2>
+              <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  No, si una persona posee un testamento que fue dejado por la persona fallecida deberá iniciar igualmente una sucesión testamentaria.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwentyThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyThree" aria-expanded="false" aria-controls="flush-collapseTwentyThree">
-              ¿Hereda un cónyuge los bienes gananciales?
-            </button>
-          </h2>
-          <div id="flush-collapseTwentyThree" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyThree" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">No. Al fallecer uno de los cónyuges, el supérstite (que sobrevive) retira el 50 % que le correspondía sobre los bienes gananciales.
-              Si hay hijos, el 50 % restante los heredan los hijos en partes iguales. Si no hay hijos ni padres recibe el 100% de los bienes.
-            </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingNineteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
+                  ¿Cuándo termina una sucesión?
+                </button>
+              </h2>
+              <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  La sucesión termina con la inscripción de los bienes a favor de los herederos o de quien designes. El dictado de la declaratoria de herederos da por concluida la segunda de las etapas del sucesorio. Al inscribirse la misma o la partición en el Registro de la Propiedad y recibir Ud. el testimonio inscripto.
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwentyFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyFour" aria-expanded="false" aria-controls="flush-collapseTwentyFour">
-              ¿Cuánto hereda el cónyuge de los bienes propios?
-            </button>
-          </h2>
-          <div id="flush-collapseTwentyFour" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyFour" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Varía en relación de la existencia de quien sobreviva junto con el cónyuge.
-              Si hay hijos, el cónyuge hereda como si fuera un hijo más. No hereda la mitad. Hereda en la misma proporción que si fuera un hijo.-
-              Si no hay hijos y hay ascendientes (padre o madre) hereda mitad el cónyuge y mitad los padres. 
-            </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwenty">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
+                  ¿Qué es la declaratoria de herederos?
+                </button>
+              </h2>
+              <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  La declaratoria de herederos es la resolución que dicta el Juez después de haber vencido el plazo de la publicación de edictos, reconociendo el carácter de herederos a quienes se hayan presentado y acreditado su vínculo con el fallecido.
+                </div>
+              </div>
           </div>
-        </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwentyone">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyone" aria-expanded="true" aria-controls="collapseTwentyone">
+                  ¿Qué hereda un cónyuge supérstite?
+                </button>
+              </h2>
+              <div id="collapseTwentyone" class="accordion-collapse collapse" aria-labelledby="headingTwentyone" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  El cónyuge supérstite hereda sobre los bienes propios (adquiridos antes del matrimonio o donación). Cuando concurre con Hijos heredan en la misma proporción que los hijos. Cuando concurre con Padres hereda el 50%.
+                </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwentytwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentytwo" aria-expanded="true" aria-controls="collapseTwentytwo">
+                  ¿Qué hereda un cónyuge supérstite?
+                </button>
+              </h2>
+              <div id="collapseTwentytwo" class="accordion-collapse collapse" aria-labelledby="headingTwentytwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  El cónyuge supérstite hereda sobre los bienes propios (adquiridos antes del matrimonio o donación).
+              <p>Cuando concurre con Hijos heredan en la misma proporción que los hijos.</p>
+              <p>Cuando concurre con Padres hereda el 50%.</p>
+              <p>Si no hay hijos ni padres recibe el 100% de los bienes.</p>
+              <p>Al fallecer uno de los cónyuges, el supérstite (que sobrevive) retira el 50% que le correspondía sobre los bienes gananciales.</p>  
+              </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwentythree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentythree" aria-expanded="true" aria-controls="collapseTwentythree">
+                  ¿Los hijos matrimoniales heredan más que los hijos extramatrimoniales?
+                </button>
+              </h2>
+              <div id="collapseTwentythree" class="accordion-collapse collapse" aria-labelledby="headingTwentythree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  No, todos los hijos heredan por igual, hayan nacido dentro de un matrimonio o no.
+                </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwentyfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyfour" aria-expanded="false" aria-controls="collapseTwentyfour">
+                  ¿Qué es una cesión de derechos y acciones hereditarias?
+                </button>
+              </h2>
+              <div id="collapseTwentyfour" class="accordion-collapse collapse" aria-labelledby="headingTwentyfour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Es un contrato que se realiza por escritura pública por la cual un heredero cede a otros sus derechos sobre toda la herencia. No se puede realizar cesión de herencia sobre bien determinado.
+                </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwentyfour1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyfour1" aria-expanded="false" aria-controls="collapseTwentyfour1">
+                  ¿Cuánto tiempo lleva el juicio sucesorio?
+                </button>
+              </h2>
+              <div id="collapseTwentyfour1" class="accordion-collapse collapse" aria-labelledby="headingTwentyfour1" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Se estima un plazo mínimo de 4 a 6 meses a contar desde que se inicia.
+                </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwentyfive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyfive" aria-expanded="true" aria-controls="collapseTwentyfive">
+                  ¿Qué pasa si hay declaratoria de herederos y aparece un heredero nuevo?
+                </button>
+              </h2>
+              <div id="collapseTwentyfive" class="accordion-collapse collapse" aria-labelledby="headingTwentyfive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  En ese caso se acredita el vínculo con el causante y se procede a la ampliación de la resolución dictada por el juez en la que reconoce el carácter de los herederos.
+                  <p>En caso que los bienes se hayan vendido, recomendamos consultarnos en forma inmediata.</p>
+                </div>
+              </div>
+          </div>
       </div>
+      </div>    
       <div class="dudas">
         <h1>¿Te quedó alguna duda sin responder?</h1>
         <p>Podés coordinar por Whatsapp una videollamada y despejar todas tus dudas.</p>
-        <div class="button">
-          <button type="button" class="btn btn-secondary btn-lg">
-            <a href="">Ir a Whatsapp</a>
-          </button>
-        </div>
       </div>
     </div>
     <footer>
@@ -343,8 +417,7 @@
         </div> 
       </div>
     </footer>
-    <p class="foot">JR ESTUDIO JURÍDICO</p>
-    <p class="foot1">Buscamos acercar el derecho a nuestros clientes de manera rápida y sencilla</p>
+    <p class="foot1" style="font-size: 0.8rem;">BUSCAMOS ACERCAR EL DERECHO A NUESTROS CLIENTES DE MANERA RÁPIDA Y SENCILLA</p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
