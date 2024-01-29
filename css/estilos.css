@@ -178,6 +178,7 @@ div .bloque2{
 .planificacion{
     padding: 20px;
     color: black;
+    width: 100%;
 }
 
 .planificacion h1{
@@ -228,7 +229,6 @@ div .bloque2{
 .legitima .card{
     padding: 10px;
     color: #082746;
-    background-color:#D2D9E0;
     width: 100%;
     background-color: rgba(211, 201, 201, 0);
     
