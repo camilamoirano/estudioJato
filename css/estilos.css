@@ -84,6 +84,10 @@ div li .select{
 
 div .bloque2{
     padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bloque2 .col{
@@ -223,6 +227,8 @@ div .bloque2{
     padding: 10px;
     color: #082746;
     background-color:#D2D9E0;
+    width: 450px;
+
 }
 
 .instrumentos .card-body:hover{
