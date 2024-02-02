@@ -1,7 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 *{
     margin: 0;
@@ -14,37 +13,47 @@ body{
     overflow-x: hidden;
 }
 
+nav .navbar-text{
+   font-family: 'Poppins', sans-serif;
+   color: #082746;
+}
 .letra a{
     color: #0C3872;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
 
 }
+
 .letra li a{
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.1rem;
+    color:#082746;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
 .letra li a:hover{
-    color: #0C3872;
-    font-weight: 600;
-   
+    color:#d6be32;
+    transform: scale(1.1);   
 }   
+
 div li .select{
-    color: black;
+    color:#082746;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .bloque1{
     padding: 20px;
+    padding-block: 60px;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    padding-block: 60px;
 }
 .bloque1 h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
     margin-bottom: 30px;   
 }
 
@@ -56,8 +65,7 @@ div li .select{
 
 
 .bloque1s{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-block: 60px;
     background-image: url("../assets/fondo.jpg");
 }
 
@@ -76,7 +84,7 @@ div li .select{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     color: white;
@@ -84,6 +92,7 @@ div li .select{
 
 div .bloque2{
     padding: 20px;
+    padding-block: 60px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -96,7 +105,7 @@ div .bloque2{
 }
 
 .bloque2 h5{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
 }
 
@@ -106,8 +115,8 @@ div .bloque2{
 }
 
 .bloque2 h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
     color: black;
 }
 
@@ -122,13 +131,16 @@ div .bloque2{
 }
 
 .quees{
-    color: black;
+    color:#082746;
     padding: 20px;
+    padding-block: 60px;
+    background-color:#D2D9E0;
+    background-color: #D2D9E0;
 }
 
 .quees h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
 }
 
 .quees p{
@@ -139,26 +151,40 @@ div .bloque2{
 
 .etapas{
     padding: 20px;
-    background-color: #D2D9E0;
-    color: black;
+    padding-block: 60px;
+    background-image: url("../assets/bg2.jpg");
+    color:#082746;
 }
 
 .etapas h1{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 30px;
+    font-size: 2rem;
 }
 
+.etapas .card-header{
+    background-color: #082746;
+}
+
+.etapas .card-body{
+    background-color:#D2D9E0;
+    color: #082746;
+}
 .etapas h2{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+    color: #d6be32;
 }
 
 .etapas p{
     margin-top: 20px;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
-
+.etapas .card{
+    margin: 30px;
+}
 
 .etapas h2:hover{
     background-color: white;
@@ -166,82 +192,14 @@ div .bloque2{
 }
 
 .etapas div:hover{
-    background-color: gray;
-    color: white;
+    background-color: white;
+    color:#082746;
 } 
 
-.plani{
-    background-color: #D2D9E0;
-}
-
-
-.planificacion{
-    padding: 20px;
-    color: black;
-    width: 100%;
-}
-
-.planificacion h1{
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-.planificacion h2{
-    font-family: 'Playfair Display', serif;
-}
-
-.planificacion p{
-    margin-top: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-}
-
-.planificacion ul{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.1rem;
-}
-
-.planificacion .plan{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    margin: 5px;
-}
-
-.planificacion .title{
-    padding-top: 40px;
-}
-
-.planificacion .obj{
-    background-image: url("../assets/fondo.jpg");
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    color: white;
-}
-
-.legitima{
-    background-image: url("../assets/presi.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.legitima .card{
-    padding: 10px;
-    color: #082746;
-    width: 100%;
-    background-color: rgba(211, 201, 201, 0);
-    
-}
-
-.instrumentos .card-body:hover{
-    background-color: gray;
-    color: white;
-}
-
 .documentacion{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-block: 60px;
+    color: #082746;
+    background-color: #082746;
 }
 
 .documentacion .row{
@@ -252,15 +210,13 @@ div .bloque2{
 .documentacion .card{
     padding: 10px;
     margin: 10px;
-    
-    color: black;
     background-image: url("../assets/presi.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .documentacion h5{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
     margin-bottom: 20px;
 }
@@ -273,23 +229,173 @@ div .bloque2{
 .documentacion a{
     font-family: 'Raleway', sans-serif;
     font-size: 1.1rem;
+    color: #d6be32;
 }
+
+.documentacion .btn{
+    background-color: #082746;
+}
+
+
+.plani{
+    background-color: #D2D9E0;
+    color: #082746;
+    padding: 20px;
+    padding-block: 60px;
+}
+
+.plani h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+}
+
+.plani p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+.plani a{
+    font-weight: 600;
+    color: blue;
+}
+
+.plani a:hover{
+    color: #082746;
+}
+
+.legitima{
+    padding: 20px;
+    padding-block: 60px;
+    background-image: url("../assets/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.legitima h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #082746;
+}
+
+.legitima p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    color: #082746;
+}
+
+.legitima h2{
+    font-size: 1.9rem;
+    font-family: 'Poppins', sans-serif;
+    color: #082746;
+}
+.legitima .card{
+    padding: 10px;
+    color: #082746;
+    width: 100%;
+    background-color:#D2D9E0;
+    margin-block: 20px;   
+}
+
+.legitima .card:hover{
+    background-color: #d6be32;
+}
+
+.obj{
+    padding: 20px;
+    padding-block: 60px;
+    background-image: url("../assets/presi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #082746;
+}
+
+.obj h1{
+    font-size: 2rem;
+    font-family:'Poppins', sans-serif ;
+    margin-bottom: 30px;
+}
+
+.obj p{
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.instrumentos{
+    width: 100%;
+    padding: 20px;
+    padding-block: 60px;
+    color: #D2D9E0;
+    background-color: #082746;
+}
+
+.instrumentos a{
+    font-weight: 600;
+}
+
+.instrumentos h1{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family:'Poppins', sans-serif ;
+}
+
+.instrumentos h2{
+    font-size: 1.9rem;
+    font-family:'Poppins', sans-serif ;
+}
+
+.instrumentos p{
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.instrumentos li{
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.instrumentos .bottom{
+    margin-bottom: 60px;
+}
+
+.instrumentos .card-header{
+    background-color:#d6be32;
+    color: #082746;
+}
+
+.instrumentos .card-body{
+    background-image: url("../assets/bg1.jpg");
+    color: #D2D9E0;
+}
+
+
+.instrumentos .card-header:hover{
+    background-color:white;
+    color:#082746;
+}
+
+
 
 div .docs1{
     padding: 20px;
     color: black;
-    padding-top: 40px;
+    padding-block: 60px;
 }
 
 body .docs1{
     background-image: url("../assets/presi.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    padding: 20px;
+    padding-block: 60px;
 }
 
 .docs1 h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
 }
 
 .docs1 p{
@@ -298,13 +404,14 @@ body .docs1{
 }
 
 .docs1 ul{
+    margin: 30px;
     list-style: none;
     font-family: 'Raleway', sans-serif;
     font-size: 1.1rem;
 }
 
 .buttondocs1 {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     padding-top: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
@@ -327,6 +434,7 @@ body .docs1{
 div .docs2{
     padding: 20px;
     color: black;
+    padding-block: 60px;
 }
 
 body .docs2{
@@ -337,22 +445,27 @@ body .docs2{
 }
 
 .docs2 h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
     padding-top: 20px;
 }
 
 .docs2 p{
     font-family: 'Raleway', sans-serif;
     font-size: 1.1rem;
+    
 }
 
 .docs2 ul{
     list-style: none;
     font-family: 'Raleway', sans-serif;
     font-size: 1.1rem;
+    margin: 30px;
 }
 
+.docs2 li{
+    margin: 10px;
+}
 .buttondocs2 {
     margin-left: 40px;
     padding-bottom: 40px;
@@ -365,28 +478,35 @@ body .docs2{
     color: white;
 }
 
-
-
-.pregs .container{
-    padding-top: 20px;
-}
 .pregs img{
     width: 100%;
 }
 
+
+.pregs .cont{
+    padding-block: 60px;
+    background-color: #082746;
+    background-image: url("../assets/bg2.jpg");
+}
+
+.pregs .union{
+    margin-top: 30px;
+}
+
 .pregs h1{
     color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
 }
 
 .accordion{
-    width: 100%;
+    width: 90%;
     background: transparent;
     padding: 10px;
     color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    margin: auto;
 }
 
 .accordion-item{
@@ -395,32 +515,21 @@ body .docs2{
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1),-2px -2px 8px rgba(0,0,0,0.1);
 }
 
-.accordion-body{
-    background: #D2D9E0;
-    font-size: 1.3rem;
-}
- 
-.accordion button{
-    font-family: 'Raleway', sans-serif;   
-    font-weight: 500;
-    color: black;
-    font-size: 1.4rem;
-}
 
-.accordion-collapse{
-    color:pink;
-}
 
 .accordion button{
-    color:#D2D9E0;
-    background:#082746;
+    color:#082746;
+    background:#d6be32;
     outline: none;
     border: 1px solid rgba(0,0,0,0.1);
+    font-family: 'Raleway', sans-serif;   
+    font-weight: 500;
+    font-size: 1.3rem;
 }
 
 .accordion-body{
-    color:#082746;
-    background-color: #D2D9E0;
+    color:#d6be32;
+    background-color: #082746;
     font-size: 1.2rem;
 }
 
@@ -429,13 +538,15 @@ div .dudas{
     display: block;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-block: 60px;
+    color:#082746;
 }
 .dudas h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    color:#082746;
+    font-size: 2rem;
 }
 
 .dudas p{
@@ -443,76 +554,46 @@ div .dudas{
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .imgfinanciacion img{
     width: 100%;
 }
 
-div .honorarios{
-    color: black;
+.honorarios{
+    color:#082746;
     padding: 20px;
-    background-image: url("../assets/presi.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #D2D9E0;
+    padding-block: 60px;
 }
 
 .honorarios h2{
-    font-family: 'Payfair Display', serif ;
-    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
     margin-bottom: 30px;
 }
 
 .honorarios p{
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .honorarios li{
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     list-style: none;
     margin: 10px;
 }
 
 
-div .gastos{
-    color: black;
+
+
+.pago{
+    color:#082746;
     padding: 20px;
-}
-
-
-.gastos h2{
-    font-family: 'Payfair Display', serif ;
-    font-size: 2rem;
-}
-
-.gastos p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
-}
-
-.gastos li{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
-    list-style: none;
-    margin: 10px;
-}
-
-.gastos .h1{
-    margin-bottom: 30px;
-    font-size: 2.3rem;
-}
-
-.gastos .tasa{
-    margin-top: 30px;
-}
-
-div .pago{
-    color: black;
-    padding: 20px;
-    background-image: url("../assets/fondo.jpg");
+    background-image: url("../assets/bg2.jpg");
+    padding-block: 60px;
 }
 
 .pago .card{
@@ -520,22 +601,100 @@ div .pago{
     display: flex;
     align-content: center;
     margin: auto;
-    background-color: #f1f1f1;
+    background-color: #d6be32;
+}
+
+.pago .card-header, .pago .card-footer{
+    background-color: #082746;
 }
 
 .pago h2{
-    font-family: 'Payfair Display', serif ;
-    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
 }
 
 .pago p{
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
  
 .pago p:hover{
     transform: scale(1.2);
 }
+
+div .gastos{
+    color: black;
+    padding: 20px;
+    background-color: #082746;
+    padding-block: 60px;
+}
+
+
+.gastos h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+}
+
+.gastos .h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #D2D9E0;
+}
+
+.gastos p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    color: #082746;
+}
+
+.gastos .card-header{
+    background-color:#d6be32;
+    color: #082746;
+}
+
+.gastos .card-header:hover{
+    background-color: white;
+    color: #082746;
+}
+
+.gastos .card-body{
+    background-color: #D2D9E0;
+}
+
+.gastos .card-body:hover{
+    background-color: white;
+    color: #082746;
+}
+
+.tasas .tasa{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+}
+    
+
+.tasas p{
+    color: #D2D9E0;
+    margin-top: 30px;
+}
+
+.tasas li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    list-style: none;
+    margin: 10px;
+    color: #D2D9E0;
+}
+
+.gastos .h1{
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.tasas .tasa{
+    margin-top: 60px;
+    color: #D2D9E0;
+}
+
 .imgcontacto img{
     width: 100%;
 }
@@ -549,29 +708,29 @@ div .pago{
 
 
 div .contacto{
-    color: black;
+    color:#082746;
     padding: 20px;
     background-image: url("../assets/presi.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    padding-block: 60px;
 }
 
-.contacto b{
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
+.contacto h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
 }
 
 .contacto ul li{
     list-style: none;
-    margin-left: 30px;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
 }
 
 .contacto p{
-    margin-top: 30px;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
+    margin-bottom: 30px;
 }
 
 .contacto iframe{
@@ -584,22 +743,24 @@ div .contacto{
 
 footer a{
     text-decoration: none;
-    color: black;
+    color:#082746;
 }
 
 footer a:hover{
-    color: black;
+    color:#082746;
+
 }
 
 footer{
-    background-color: #D2D9E0;
-    color: black;
-    font-size: 1rem;
+    background-image: url(../assets/bg3.jpg);
+    color:#082746;
+    font-size: 1.1rem;
     padding: 20px;
+    padding-block: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Playfair Display' , serif;
     font-weight: 400;
 }
 
@@ -608,7 +769,7 @@ footer .col{
     justify-content: center;
     align-content: center;
     align-items: center;
-    color: black;
+    
 }
 
 footer .menuabajo{
@@ -619,7 +780,8 @@ footer .menuabajo{
 }
 
 footer p:hover{
-    transform:scale(1.1)
+    transform:scale(1.1);
+    font-weight: 600;
 }
 
 .imgfooter{
@@ -631,10 +793,12 @@ footer p:hover{
     font-family: 'Playfair Display' , serif;
     display: flex;
     justify-content: center;
-    color:#D2D9E0;
+    color:#d6be32;
     background-color: #082746;
     margin-bottom: 0;
-    padding: 10px;
+    padding: 20px;
+    font-size: 1rem;
+    padding-block: 15px;
 }
 
 
