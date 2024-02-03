@@ -735,12 +735,13 @@ div .contacto{
     padding: 20px;
     background-color: #DCD6CD;
     padding-block: 60px;
+    background-image: url(../assets/bg5.jpg);
 }
 
 .contacto h2{
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
-    color: white;
+    color:#0C3872;
 }
 
 .contacto ul li{
