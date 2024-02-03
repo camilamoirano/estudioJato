@@ -38,7 +38,7 @@ nav .navbar-text{
 }
 
 .letra li a:hover{
-    color:#D4BBA9;
+    color:#9EAFC1;
     transform: scale(1.1);   
 }   
 
@@ -51,15 +51,14 @@ div li .select{
 .bloque1{
     padding: 20px;
     padding-block: 60px;
-    padding-block: 60px;
-    background-color: #D4D7DB;
+    background-color: #C5D9EF;
     color: #0C3872;
     width: 100%;
 }
 .bloque1 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;  
 }
 
 .bloque1 p{
@@ -89,13 +88,13 @@ div li .select{
 .bloque1s p{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
-    color: #D4BBA9;
+    color: white;
 }
 
 .bloque2{
     padding: 20px;
     padding-block: 60px;
-    background-color: #D4BBA9;
+    background-color: #DCD6CD;
     width: 100%;
 }
 
@@ -115,8 +114,9 @@ div li .select{
 .bloque2 a{
     font-family: 'Poppins', sans-serif;
     font-size: 1.2;
-    color: #D4D7DB;
+    color: #C5D9EF;
     padding-inline: 15px;
+    font-weight: 600;
 }
 
 .bloque2 .card{
@@ -132,8 +132,9 @@ div li .select{
 }
 
 .bloque2 .btn{
-    color: #D4BBA9;
-    background-color: #0C3872;
+    color: #0C3872;
+    background-color: white;
+    padding-inline: 20px;
 }
 
 .imgsucesiones img{
@@ -144,7 +145,7 @@ div li .select{
     color:#0C3872;
     padding: 20px;
     padding-block: 60px;
-    background-color: #D4D7DB;
+    background-color: #C5D9EF;
 }
 
 .quees h1{
@@ -177,13 +178,13 @@ div li .select{
 }
 
 .etapas .card-body{
-    background-color:#D4D7DB;
+    background-color:#C5D9EF;
     color: #0C3872;
 }
 .etapas h2{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-    color: #D4BBA9;
+    color: #C5D9EF;
 }
 
 .etapas p{
@@ -235,21 +236,21 @@ div li .select{
 .documentacion a{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
-    color: #D4BBA9;
+    color: #9EAFC1;
 }
 
 .documentacion .btn{
-    background-color: #D4BBA9;
+    background-color: #DCD6CD;
     color: #0C3872;
 }
 
 .documentacion .btn:hover{
     background-color: #0C3872;
-    color: #D4BBA9;
+    color: #DCD6CD;
 }
 
 .plani{
-    background-color: #D4D7DB;
+    background-color: #C5D9EF;
     color: #0C3872;
     padding: 20px;
     padding-block: 60px;
@@ -275,7 +276,7 @@ div li .select{
 }
 
 .plani a:hover{
-    color: #9EAFC1;
+    color: #C5D9EF;
 }
 
 .legitima{
@@ -308,12 +309,12 @@ div li .select{
     padding: 10px;
     color: #0C3872;
     width: 100%;
-    background-color:#D4D7DB;
+    background-color:white;
     margin-block: 20px;   
 }
 
 .legitima .card:hover{
-    background-color: #D4BBA9;
+    background-color: #C5D9EF;
 }
 
 .obj{
@@ -341,7 +342,7 @@ div li .select{
     width: 100%;
     padding: 20px;
     padding-block: 60px;
-    color: #D4BBA9;
+    color:#DCD6CD;
     background-color: #0C3872;
 }
 
@@ -366,6 +367,10 @@ div li .select{
     font-family: 'Poppins', sans-serif;
 }
 
+.instrumentos .plan{
+    color: #0C3872;
+}
+
 .instrumentos li{
     font-size: 1.1rem;
     font-family: 'Poppins', sans-serif;
@@ -376,13 +381,13 @@ div li .select{
 }
 
 .instrumentos .card-header{
-    background-color:#D4BBA9;
-    color: #082746;
+    background-color:#DCD6CD;
+    color: #0C3872;
 }
 
 .instrumentos .card-body{
     background-image: url("../assets/bg1.jpg");
-    color: #D4BBA9;
+    color: #C5D9EF;
 }
 
 
@@ -437,7 +442,7 @@ body .docs1{
 }
 
 buttondocs1 .btn{
-    background-color: #D4BBA9;
+    background-color: #C5D9EF;
     color: #0C3872;
 }
 
@@ -448,7 +453,7 @@ buttondocs1 .btn{
 
 .buttondocs1 a:hover{
     text-decoration: none;
-    color:#D4BBA9;
+    color:#C5D9EF;
 }
 
 
@@ -524,14 +529,14 @@ body .docs2{
     width: 90%;
     background: transparent;
     padding: 10px;
-    color: black;
+    color:#0C3872;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     margin: auto;
 }
 
 .accordion-item{
-    background:#D4D7DB;
+    background:#DCD6CD;
     border: none;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1),-2px -2px 8px rgba(0,0,0,0.1);
 }
@@ -540,7 +545,7 @@ body .docs2{
 
 .accordion button{
     color:#0C3872;
-    background:#D4BBA9;
+    background:#DCD6CD;
     outline: none;
     border: 1px solid rgba(0,0,0,0.1);
     font-family: 'Poppins', sans-serif;   
@@ -549,8 +554,8 @@ body .docs2{
 }
 
 .accordion-body{
-    color:#D4BBA9;
-    background-color: #082746;
+    color:#C5D9EF;
+    background-color: #0C3872;
     font-size: 1.1rem;
 }
 
@@ -585,7 +590,7 @@ div .dudas{
 .honorarios{
     color:#0C3872;
     padding: 20px;
-    background-color: #D4D7DB;
+    background-color: #C5D9EF;
     padding-block: 60px;
 }
 
@@ -622,7 +627,7 @@ div .dudas{
     display: flex;
     align-content: center;
     margin: auto;
-    background-color: #D4BBA9;
+    background-color: #C5D9EF;
 }
 
 .pago .card-header, .pago .card-footer{
@@ -644,7 +649,6 @@ div .dudas{
 }
 
 div .gastos{
-    color: black;
     padding: 20px;
     background-color: #0C3872;
     padding-block: 60px;
@@ -660,7 +664,7 @@ div .gastos{
 .gastos .h1{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-    color: #D4D7DB;
+    color: #C5D9EF;
 }
 
 .gastos p{
@@ -670,7 +674,7 @@ div .gastos{
 }
 
 .gastos .card-header{
-    background-color:#D4BBA9;
+    background-color:#DCD6CD;
     color: #0C3872;
 }
 
@@ -679,9 +683,6 @@ div .gastos{
     color: #0C3872;
 }
 
-.gastos .card-body{
-    background-color: #D4D7DB;
-}
 
 .gastos .card-body:hover{
     background-color: white;
@@ -695,7 +696,7 @@ div .gastos{
     
 
 .tasas p{
-    color: #D4D7DB;
+    color: #C5D9EF;
     margin-top: 30px;
 }
 
@@ -704,7 +705,7 @@ div .gastos{
     font-size: 1.1rem;
     list-style: none;
     margin: 10px;
-    color: #D4D7DB;
+    color: #C5D9EF;
 }
 
 .gastos .h1{
@@ -714,7 +715,7 @@ div .gastos{
 
 .tasas .tasa{
     margin-top: 60px;
-    color: #D4D7DB;
+    color: #C5D9EF;
 }
 
 .imgcontacto img{
@@ -732,28 +733,28 @@ div .gastos{
 div .contacto{
     color:#082746;
     padding: 20px;
-    background-color: #D4BBA9;
+    background-color: #DCD6CD;
     padding-block: 60px;
 }
 
 .contacto h2{
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
-    color: #0C3872;
+    color: white;
 }
 
 .contacto ul li{
     list-style: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
-    color:white ;
+    color:#0C3872 ;
 }
 
 .contacto p{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
     margin-bottom: 30px;
-    color: white;
+    color:#0C3872;
 }
 
 .contacto iframe{
@@ -775,7 +776,7 @@ footer a:hover{
 }
 
 footer{
-    background-color: #D4D7DB;
+    background-color: #C5D9EF;
     color:#0C3872;
     font-size: 1rem;
     padding: 20px;
@@ -813,7 +814,7 @@ footer .numero{
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
-    color:#B79883;
+    color:#0C3872;
     background-color: white;
     margin-bottom: 0;
     padding: 20px;
