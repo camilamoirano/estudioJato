@@ -86,43 +86,37 @@ div li .select{
     color: white;
 }
 
-
 .bloque2{
     padding: 20px;
     padding-block: 60px;
-    width: 100%;
+    background-color: #CEB725;
 }
 
 .bloque2 h1{
-    font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-    color:#082746;
+    font-family: 'Poppins', sans-serif;
+    color: #082746;
 }
 
 .bloque2 h5{
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
+    color: #082746;
 }
 
-.bloque2 p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;    
-}
 
 .bloque2 a{
-    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2;
     color: #D2D9E0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 500;
-
-}
-.bloque2 .col{
-    padding: 20px;
+    padding-inline: 15px;
 }
 
-.bloque2 .btn{
-    background-color: #082746;
+.bloque2 .card{
+    padding:20px;
+    background-image: url("../assets/bg2.jpg");
+    width: 100%;
+    margin: auto;
 }
 
 .bloque2 .row{
@@ -130,26 +124,6 @@ div li .select{
     justify-content: center;
     padding: 10px;
 }
-
-.bloque2 .card-img-top{
-    width: 100%;
-    height: 300px;
-}
-
-.bloque2 .card{
-    border-radius: 15px;
-}
-
-.bloque2 .card-body{
-    background-image: url("../assets/bg2.jpg");
-    border-radius: 15px;
-}
-
-.bloque2 .card-body:hover{
-    background-color:#082746;
-    color: white;
-}
-
 
 .imgsucesiones img{
     width: 100%;
@@ -179,6 +153,7 @@ div li .select{
     padding-block: 60px;
     background-image: url("../assets/bg2.jpg");
     color:#082746;
+    width: 100%;
 }
 
 .etapas h1{
@@ -205,10 +180,6 @@ div li .select{
     margin-top: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
-}
-
-.etapas .card{
-    margin: 30px;
 }
 
 .etapas h2:hover{
@@ -775,31 +746,16 @@ footer a:hover{
 }
 
 footer{
-    background-image: url(../assets/bg3.jpg);
+    background-color: #D2D9E0;
     color:#082746;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 20px;
     padding-block: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Playfair Display' , serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
-}
-
-footer .col{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    
-}
-
-footer .menuabajo{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 }
 
 footer p:hover{
@@ -813,15 +769,14 @@ footer p:hover{
 }
 
 .foot1{
-    font-family: 'Playfair Display' , serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
-    color:#D2D9E0;
-    background-color: #082746;
+    color:#CEB725;
+    background-color: white;
     margin-bottom: 0;
     padding: 20px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-block: 15px;
 }
-
 
