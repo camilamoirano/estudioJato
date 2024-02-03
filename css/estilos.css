@@ -113,7 +113,7 @@ div li .select{
 }
 
 .bloque2 .card{
-    padding:20px;
+    padding:10px;
     background-image: url("../assets/bg2.jpg");
     width: 100%;
     margin: auto;
@@ -122,7 +122,6 @@ div li .select{
 .bloque2 .row{
     display: flex;
     justify-content: center;
-    padding: 10px;
 }
 
 .imgsucesiones img{
