@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
@@ -15,40 +15,40 @@ body{
 
 nav .navbar-text{
    font-family: 'Poppins', sans-serif;
-   color: #082746;
+   color: #0C3872;
 }
 .letra a{
     color: #0C3872;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
 }
 
 .letra li a{
-    color:#082746;
+    color:#0C3872;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
 .letra li a:hover{
-    color:#CEB725;
+    color:#D4BBA9;
     transform: scale(1.1);   
 }   
 
 div li .select{
-    color:#082746;
+    color:#0C3872;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .bloque1{
     padding: 20px;
     padding-block: 60px;
     padding-block: 60px;
-    background-color: #D2D9E0;
-    color: #082746;
+    background-color: #D4D7DB;
+    color: #0C3872;
 }
 .bloque1 h1{
     font-family: 'Poppins', sans-serif;
@@ -57,9 +57,8 @@ div li .select{
 }
 
 .bloque1 p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-   
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
 }
 
 
@@ -83,32 +82,32 @@ div li .select{
 .bloque1s p{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
-    color: white;
+    color: #D4BBA9;
 }
 
 .bloque2{
     padding: 20px;
     padding-block: 60px;
-    background-color: #CEB725;
+    background-color: #D4BBA9;
 }
 
 .bloque2 h1{
     font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
-    color: #082746;
+    color: #0C3872;
 }
 
 .bloque2 h5{
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
-    color: #082746;
+    color: #0C3872;
 }
 
 
 .bloque2 a{
     font-family: 'Poppins', sans-serif;
     font-size: 1.2;
-    color: #D2D9E0;
+    color: #D4D7DB;
     padding-inline: 15px;
 }
 
@@ -124,16 +123,20 @@ div li .select{
     justify-content: center;
 }
 
+.bloque2 .btn{
+    color: #D4BBA9;
+    background-color: #0C3872;
+}
+
 .imgsucesiones img{
     width: 100%;
 }
 
 .quees{
-    color:#082746;
+    color:#0C3872;
     padding: 20px;
     padding-block: 60px;
-    background-color:#D2D9E0;
-    background-color: #D2D9E0;
+    background-color: #D4D7DB;
 }
 
 .quees h1{
@@ -143,15 +146,15 @@ div li .select{
 
 .quees p{
     margin-top: 30px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
 }
 
 .etapas{
     padding: 20px;
     padding-block: 60px;
     background-image: url("../assets/bg2.jpg");
-    color:#082746;
+    color:#0C3872;
     width: 100%;
 }
 
@@ -162,39 +165,39 @@ div li .select{
 }
 
 .etapas .card-header{
-    background-color: #082746;
+    background-color: #0C3872;
 }
 
 .etapas .card-body{
-    background-color:#D2D9E0;
-    color: #082746;
+    background-color:#D4D7DB;
+    color: #0C3872;
 }
 .etapas h2{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-    color: #CEB725;
+    color: #D4BBA9;
 }
 
 .etapas p{
     margin-top: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
 }
 
 .etapas h2:hover{
     background-color: white;
-    color: #082746;
+    color: #0C3872;
 }
 
 .etapas div:hover{
     background-color: white;
-    color:#082746;
+    color:#0C3872;
 } 
 
 .documentacion{
     padding-block: 60px;
-    color: #082746;
-    background-color: #082746;
+    color: #0C3872;
+    background-color: #0C3872;
 }
 
 .documentacion .row{
@@ -217,24 +220,29 @@ div li .select{
 }
 
 .documentacion p{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
 }
 
 .documentacion a{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
-    color: #CEB725;
+    color: #D4BBA9;
 }
 
 .documentacion .btn{
-    background-color: #082746;
+    background-color: #D4BBA9;
+    color: #0C3872;
 }
 
+.documentacion .btn:hover{
+    background-color: #0C3872;
+    color: #D4BBA9;
+}
 
 .plani{
-    background-color: #D2D9E0;
-    color: #082746;
+    background-color: #D4D7DB;
+    color: #0C3872;
     padding: 20px;
     padding-block: 60px;
 }
@@ -243,12 +251,14 @@ div li .select{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 30px;
+    color: #0C3872;
 
 }
 
 .plani p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #0C3872;
 }
 
 .plani a{
@@ -257,7 +267,7 @@ div li .select{
 }
 
 .plani a:hover{
-    color: #082746;
+    color: #9EAFC1;
 }
 
 .legitima{
@@ -272,30 +282,30 @@ div li .select{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 30px;
-    color: #082746;
+    color: #0C3872;
 }
 
 .legitima p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    color: #082746;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #0C3872;
 }
 
 .legitima h2{
     font-size: 1.7rem;
     font-family: 'Poppins', sans-serif;
-    color: #082746;
+    color: #0C3872;
 }
 .legitima .card{
     padding: 10px;
-    color: #082746;
+    color: #0C3872;
     width: 100%;
-    background-color:#D2D9E0;
+    background-color:#D4D7DB;
     margin-block: 20px;   
 }
 
 .legitima .card:hover{
-    background-color: #CEB725;
+    background-color: #D4BBA9;
 }
 
 .obj{
@@ -304,7 +314,7 @@ div li .select{
     background-image: url("../assets/presi.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    color: #082746;
+    color: #0C3872;
 }
 
 .obj h1{
@@ -314,8 +324,8 @@ div li .select{
 }
 
 .obj p{
-    font-size: 1.2rem;
-    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -323,13 +333,14 @@ div li .select{
     width: 100%;
     padding: 20px;
     padding-block: 60px;
-    color: #D2D9E0;
-    background-color: #082746;
+    color: #D4BBA9;
+    background-color: #0C3872;
 }
 
 .instrumentos a{
     font-weight: 600;
 }
+
 
 .instrumentos h1{
     font-size: 1.8rem;
@@ -343,13 +354,13 @@ div li .select{
 }
 
 .instrumentos p{
-    font-size: 1.2rem;
-    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .instrumentos li{
-    font-size: 1.2rem;
-    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .instrumentos .bottom{
@@ -357,19 +368,19 @@ div li .select{
 }
 
 .instrumentos .card-header{
-    background-color:#CEB725;
+    background-color:#D4BBA9;
     color: #082746;
 }
 
 .instrumentos .card-body{
     background-image: url("../assets/bg1.jpg");
-    color: #D2D9E0;
+    color: #D4BBA9;
 }
 
 
 .instrumentos .card-header:hover{
     background-color:white;
-    color:#082746;
+    color:#0C3872;
 }
 
 
@@ -386,6 +397,7 @@ body .docs1{
     background-repeat: no-repeat;
     padding: 20px;
     padding-block: 60px;
+    color: #0C3872;
 }
 
 .docs1 h1{
@@ -394,41 +406,42 @@ body .docs1{
 }
 
 .docs1 p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
 }
 
 .docs1 ul{
     margin: 30px;
     list-style: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
 }
 
 .buttondocs1 {
     padding-bottom: 20px;
     padding-top: 40px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #0C3872;
 }
 
 .buttondocs1 a{
     text-decoration: none;
-    color: black;
+    color:#0C3872;
 }
 
 .buttondocs1 a:hover{
     text-decoration: none;
-    color: white;
+    color:#D4BBA9;
 }
 
 
 div .docs2{
     padding: 20px;
-    color: black;
+    color:#0C3872;
     padding-block: 60px;
 }
 
@@ -436,7 +449,7 @@ body .docs2{
     background-image: url("../assets/presi.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    color: black;
+    color:#0C3872;
 }
 
 .docs2 h1{
@@ -446,15 +459,15 @@ body .docs2{
 }
 
 .docs2 p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
     
 }
 
 .docs2 ul{
     list-style: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
     margin: 30px;
 }
 
@@ -464,8 +477,8 @@ body .docs2{
 .buttondocs2 {
     margin-left: 40px;
     padding-bottom: 40px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
 }
 
 .buttondocs2 a{
@@ -480,7 +493,7 @@ body .docs2{
 
 .pregs .cont{
     padding-block: 60px;
-    background-color: #082746;
+    background-color: #0C3872;
     background-image: url("../assets/bg2.jpg");
 }
 
@@ -499,13 +512,13 @@ body .docs2{
     background: transparent;
     padding: 10px;
     color: black;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     margin: auto;
 }
 
 .accordion-item{
-    background:#D2D9E0;
+    background:#D4D7DB;
     border: none;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1),-2px -2px 8px rgba(0,0,0,0.1);
 }
@@ -513,19 +526,19 @@ body .docs2{
 
 
 .accordion button{
-    color:#082746;
-    background:#CEB725;
+    color:#0C3872;
+    background:#D4BBA9;
     outline: none;
     border: 1px solid rgba(0,0,0,0.1);
-    font-family: 'Raleway', sans-serif;   
+    font-family: 'Poppins', sans-serif;   
     font-weight: 500;
     font-size: 1.3rem;
 }
 
 .accordion-body{
-    color:#CEB725;
+    color:#D4BBA9;
     background-color: #082746;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 div .dudas{
@@ -534,13 +547,13 @@ div .dudas{
     justify-content: center;
     align-items: center;
     padding-block: 60px;
-    color:#082746;
+    color:#0C3872;
 }
 .dudas h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#082746;
+    color:#0C3872;
     font-size: 1.8rem;
 }
 
@@ -548,8 +561,8 @@ div .dudas{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
 }
 
 .imgfinanciacion img{
@@ -557,9 +570,9 @@ div .dudas{
 }
 
 .honorarios{
-    color:#082746;
+    color:#0C3872;
     padding: 20px;
-    background-color: #D2D9E0;
+    background-color: #D4D7DB;
     padding-block: 60px;
 }
 
@@ -570,13 +583,13 @@ div .dudas{
 }
 
 .honorarios p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
 }
 
 .honorarios li{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
     list-style: none;
     margin: 10px;
 }
@@ -585,7 +598,7 @@ div .dudas{
 
 
 .pago{
-    color:#082746;
+    color:#0C3872;
     padding: 20px;
     background-image: url("../assets/bg2.jpg");
     padding-block: 60px;
@@ -596,11 +609,11 @@ div .dudas{
     display: flex;
     align-content: center;
     margin: auto;
-    background-color: #CEB725;
+    background-color: #D4BBA9;
 }
 
 .pago .card-header, .pago .card-footer{
-    background-color: #082746;
+    background-color: #0C3872;
 }
 
 .pago h2{
@@ -609,8 +622,8 @@ div .dudas{
 }
 
 .pago p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
 }
  
 .pago p:hover{
@@ -620,7 +633,7 @@ div .dudas{
 div .gastos{
     color: black;
     padding: 20px;
-    background-color: #082746;
+    background-color: #0C3872;
     padding-block: 60px;
 }
 
@@ -628,37 +641,38 @@ div .gastos{
 .gastos h2{
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
+    color: #0C3872;
 }
 
 .gastos .h1{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-    color: #D2D9E0;
+    color: #D4D7DB;
 }
 
 .gastos p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    color: #082746;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #0C3872;
 }
 
 .gastos .card-header{
-    background-color:#CEB725;
-    color: #082746;
+    background-color:#D4BBA9;
+    color: #0C3872;
 }
 
 .gastos .card-header:hover{
     background-color: white;
-    color: #082746;
+    color: #0C3872;
 }
 
 .gastos .card-body{
-    background-color: #D2D9E0;
+    background-color: #D4D7DB;
 }
 
 .gastos .card-body:hover{
     background-color: white;
-    color: #082746;
+    color: #0C3872;
 }
 
 .tasas .tasa{
@@ -668,16 +682,16 @@ div .gastos{
     
 
 .tasas p{
-    color: #D2D9E0;
+    color: #D4D7DB;
     margin-top: 30px;
 }
 
 .tasas li{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
     list-style: none;
     margin: 10px;
-    color: #D2D9E0;
+    color: #D4D7DB;
 }
 
 .gastos .h1{
@@ -687,7 +701,7 @@ div .gastos{
 
 .tasas .tasa{
     margin-top: 60px;
-    color: #D2D9E0;
+    color: #D4D7DB;
 }
 
 .imgcontacto img{
@@ -705,25 +719,28 @@ div .gastos{
 div .contacto{
     color:#082746;
     padding: 20px;
-    background-color: #CEB725;
+    background-color: #D4BBA9;
     padding-block: 60px;
 }
 
 .contacto h2{
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
+    color: #0C3872;
 }
 
 .contacto ul li{
     list-style: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color:white ;
 }
 
 .contacto p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
     margin-bottom: 30px;
+    color: white;
 }
 
 .contacto iframe{
@@ -745,8 +762,8 @@ footer a:hover{
 }
 
 footer{
-    background-color: #D2D9E0;
-    color:#082746;
+    background-color: #D4D7DB;
+    color:#0C3872;
     font-size: 1rem;
     padding: 20px;
     padding-block: 60px;
@@ -757,9 +774,17 @@ footer{
     font-weight: 400;
 }
 
+footer a{
+    color: #0C3872;
+}
+
 footer p:hover{
     transform:scale(1.1);
     font-weight: 600;
+}
+
+footer a:hover{
+    color: #0C3872;
 }
 
 .imgfooter{
@@ -771,7 +796,7 @@ footer p:hover{
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
-    color:#CEB725;
+    color:#B79883;
     background-color: white;
     margin-bottom: 0;
     padding: 20px;
