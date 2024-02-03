@@ -13,6 +13,11 @@ body{
     overflow-x: hidden;
 }
 
+body .sucesiones{
+    overflow: hidden;
+    width: 100%;
+}
+
 nav .navbar-text{
    font-family: 'Poppins', sans-serif;
    color: #0C3872;
