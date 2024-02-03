@@ -627,7 +627,7 @@ div .dudas{
     display: flex;
     align-content: center;
     margin: auto;
-    background-color: #C5D9EF;
+    background-color: #DCD6CD;
 }
 
 .pago .card-header, .pago .card-footer{
@@ -815,7 +815,7 @@ footer .numero{
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
-    color:#0C3872;
+    color:#d6cab7;
     background-color: white;
     margin-bottom: 0;
     padding: 20px;
