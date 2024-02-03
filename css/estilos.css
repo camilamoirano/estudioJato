@@ -204,6 +204,7 @@ div li .select{
 
 .documentacion{
     padding-block: 60px;
+    padding: 20px;
     color: #0C3872;
     background-color: #0C3872;
 }
@@ -211,7 +212,6 @@ div li .select{
 .documentacion .row{
     display: flex;
     justify-content: center;
-    padding: 10px;
 }
 .documentacion .card{
     padding: 10px;
