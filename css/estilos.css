@@ -51,14 +51,15 @@ div li .select{
 .bloque1{
     padding: 20px;
     padding-block: 60px;
-    background-color: #C5D9EF;
-    color: #0C3872;
+    background-color: #0C3872;
+    color: white;
     width: 100%;
 }
 .bloque1 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 30px;  
+    color: #DCD6CD;
 }
 
 .bloque1 p{
@@ -68,7 +69,9 @@ div li .select{
 
 
 .bloque1s{
-    background-image: url("../assets/fondo.jpg");
+    background-image: url("../assets/fac.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 20px;
     padding-block: 60px;
     width: 100%;
@@ -89,13 +92,15 @@ div li .select{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
     color: white;
+    font-weight: 400;
+    
 }
 
 .bloque2{
     padding: 20px;
     padding-block: 60px;
-    background-color: #DCD6CD;
     width: 100%;
+    background-color: #E5E9E2;
 }
 
 .bloque2 h1{
@@ -142,15 +147,16 @@ div li .select{
 }
 
 .quees{
-    color:#0C3872;
+    background-color:#0C3872;
     padding: 20px;
     padding-block: 60px;
-    background-color: #C5D9EF;
+    color: white;
 }
 
 .quees h1{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
+    color: #DCD6CD;
 }
 
 .quees p{
@@ -178,13 +184,13 @@ div li .select{
 }
 
 .etapas .card-body{
-    background-color:#C5D9EF;
     color: #0C3872;
+    background-color:#E5E9E2;
 }
 .etapas h2{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-    color: #C5D9EF;
+    color: white;
 }
 
 .etapas p{
@@ -207,7 +213,6 @@ div li .select{
     padding-block: 60px;
     padding: 20px;
     color: #0C3872;
-    background-color: #0C3872;
 }
 
 .documentacion .row{
@@ -250,8 +255,8 @@ div li .select{
 }
 
 .plani{
-    background-color: #C5D9EF;
-    color: #0C3872;
+    background-color: #0C3872;
+    color: white;
     padding: 20px;
     padding-block: 60px;
 }
@@ -260,20 +265,15 @@ div li .select{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 30px;
-    color: #0C3872;
+    color: #DCD6CD;
 
 }
 
 .plani p{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
-    color: #0C3872;
 }
 
-.plani a{
-    font-weight: 600;
-    color: blue;
-}
 
 .plani a:hover{
     color: #0C3872;
@@ -342,12 +342,8 @@ div li .select{
     width: 100%;
     padding: 20px;
     padding-block: 60px;
-    color:#DCD6CD;
-    background-color: #0C3872;
-}
-
-.instrumentos a{
-    font-weight: 600;
+    color:#0C3872;
+    background-color: #E5E9E2;
 }
 
 
@@ -381,12 +377,12 @@ div li .select{
 }
 
 .instrumentos .card-header{
-    background-color:#DCD6CD;
-    color: #0C3872;
+    background-color:#0C3872;
+    color: #DCD6CD;
 }
 
 .instrumentos .card-body{
-    background-image: url("../assets/bg1.jpg");
+    background-image: url("../assets/bg5.png");
     color: #C5D9EF;
 }
 
@@ -554,7 +550,7 @@ body .docs2{
 }
 
 .accordion-body{
-    color:#C5D9EF;
+    color:#DCD6CD;
     background-color: #0C3872;
     font-size: 1.1rem;
 }
@@ -588,16 +584,19 @@ div .dudas{
 }
 
 .honorarios{
-    color:#0C3872;
+    color: white;
     padding: 20px;
-    background-color: #C5D9EF;
+    background-color: #0C3872;
     padding-block: 60px;
 }
+
+
 
 .honorarios h2{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 30px;
+    color:#DCD6CD;
 }
 
 .honorarios p{
@@ -650,7 +649,6 @@ div .dudas{
 
 div .gastos{
     padding: 20px;
-    background-color: #0C3872;
     padding-block: 60px;
 }
 
@@ -664,7 +662,7 @@ div .gastos{
 .gastos .h1{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-    color: #C5D9EF;
+    color: #0C3872;
 }
 
 .gastos p{
@@ -679,14 +677,17 @@ div .gastos{
 }
 
 .gastos .card-header:hover{
-    background-color: white;
-    color: #0C3872;
+    background-color: #0C3872;
+    color: white;
 }
 
+.gastos .card-body{
+    background-color: #E5E9E2;
+}
 
 .gastos .card-body:hover{
-    background-color: white;
-    color: #0C3872;
+    
+    color: white;
 }
 
 .tasas .tasa{
@@ -696,7 +697,7 @@ div .gastos{
     
 
 .tasas p{
-    color: #C5D9EF;
+    color: #0C3872;
     margin-top: 30px;
 }
 
@@ -705,7 +706,7 @@ div .gastos{
     font-size: 1.1rem;
     list-style: none;
     margin: 10px;
-    color: #C5D9EF;
+    color: #0C3872;
 }
 
 .gastos .h1{
@@ -715,7 +716,7 @@ div .gastos{
 
 .tasas .tasa{
     margin-top: 60px;
-    color: #C5D9EF;
+    color: #0C3872;
 }
 
 .imgcontacto img{
@@ -735,7 +736,6 @@ div .contacto{
     padding: 20px;
     background-color: #DCD6CD;
     padding-block: 60px;
-    background-image: url(../assets/bg5.jpg);
 }
 
 .contacto h2{
@@ -768,17 +768,12 @@ div .contacto{
 
 footer a{
     text-decoration: none;
-    color:#082746;
-}
-
-footer a:hover{
-    color:#082746;
-
+    color: white;
 }
 
 footer{
-    background-color: #C5D9EF;
-    color:#0C3872;
+    background-color: #0C3872;
+    color: white;
     font-size: 1rem;
     padding: 20px;
     padding-block: 60px;
@@ -790,16 +785,17 @@ footer{
 }
 
 footer a{
-    color: #0C3872;
+    color: white;
 }
 
 footer p:hover{
     transform:scale(1.1);
     font-weight: 600;
+    color: white;
 }
 
 footer a:hover{
-    color: #0C3872;
+    color: white;
 }
 
 footer .numero{
