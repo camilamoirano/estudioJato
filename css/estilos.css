@@ -100,7 +100,7 @@ div li .select{
     padding: 20px;
     padding-block: 60px;
     width: 100%;
-    background-color: #E5E9E2;
+    background-color: #EAEFF1;
 }
 
 .bloque2 h1{
@@ -185,7 +185,7 @@ div li .select{
 
 .etapas .card-body{
     color: #0C3872;
-    background-color:#E5E9E2;
+    background-color:#EAEFF1;
 }
 .etapas h2{
     font-family: 'Poppins', sans-serif;
@@ -314,7 +314,7 @@ div li .select{
 }
 
 .legitima .card:hover{
-    background-color: #C5D9EF;
+    background-color: #EAEFF1;
 }
 
 .obj{
@@ -343,7 +343,7 @@ div li .select{
     padding: 20px;
     padding-block: 60px;
     color:#0C3872;
-    background-color: #E5E9E2;
+    background-color: #EAEFF1;
 }
 
 
@@ -682,7 +682,7 @@ div .gastos{
 }
 
 .gastos .card-body{
-    background-color: #E5E9E2;
+    background-color: #EAEFF1;
 }
 
 .gastos .card-body:hover{
@@ -819,19 +819,4 @@ footer .numero{
     padding-block: 15px;
 }
 
-.bloque3s{
-        background-image: url("../assets/fac.jpg");
-        background-position: center;
-        padding-block: 160px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
-}
-
-.bloque3s p{
-    font-size: 5rem;
-    color: aliceblue;
-    padding-inline: 60px;
-    width:auto;
-}
