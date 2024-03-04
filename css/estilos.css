@@ -819,3 +819,18 @@ footer .numero{
     padding-block: 15px;
 }
 
+.bloque3s{
+        background-image: url("../assets/fac.jpg");
+        background-position: center;
+        padding-block: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.bloque3s p{
+    font-size: 5rem;
+    color: aliceblue;
+    padding-inline: 60px;
+}
