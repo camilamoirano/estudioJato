@@ -833,4 +833,5 @@ footer .numero{
     font-size: 5rem;
     color: aliceblue;
     padding-inline: 60px;
+    width:auto;
 }
