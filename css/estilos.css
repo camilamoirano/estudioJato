@@ -244,6 +244,7 @@ div li .select{
 }
 
 .documentacion .row{
+    padding-block: 30px;
     display: flex;
     justify-content: center;
 }
