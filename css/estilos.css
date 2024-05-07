@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;600&display=swap');
 
 *{
     margin: 0;
@@ -38,7 +39,7 @@ nav .navbar-text{
 }
 
 .letra li a:hover{
-    color:#C5D9EF;
+    color:#0C3872;
     transform: scale(1.1);   
 }   
 
@@ -59,12 +60,21 @@ div li .select{
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 30px;  
-    color: #DCD6CD;
+    color: white;
+}
+
+.bloque1 .lema{
+    font-size: 1.3rem;
 }
 
 .bloque1 p{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
+}
+
+.bloque1 .top{
+    font-family: "Open Sans", sans-serif;
+    color: lightskyblue;
 }
 
 
@@ -93,7 +103,10 @@ div li .select{
     font-size: 1.1rem;
     color: white;
     font-weight: 400;
-    
+}
+
+.bloque1s .pre{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .bloque2{
@@ -126,7 +139,7 @@ div li .select{
 
 .bloque2 .card{
     padding:10px;
-    background-image: url("../assets/bg2.jpg");
+    background-image: url("../assets/0C3872\ \(4\).jpg");
     width: 100%;
     margin: auto;
 }
@@ -168,7 +181,7 @@ div li .select{
 .etapas{
     padding: 20px;
     padding-block: 60px;
-    background-image: url("../assets/bg2.jpg");
+    background-image: url("../assets/0C3872\ \(4\).jpg");
     color:#0C3872;
     width: 100%;
 }
@@ -209,6 +222,21 @@ div li .select{
     color:#0C3872;
 } 
 
+.etapas .btn{
+    font-size: 1.2rem;
+    margin-top: 30px;
+    padding: 15px;
+    color:white;
+    background-color: #0C3872;
+    font-family: 'Poppins', sans-serif;
+}
+
+.etapas .btn:hover{
+    background-color: white;
+    color: #0C3872;
+    border-color: #0C3872;
+}
+
 .documentacion{
     padding-block: 60px;
     padding: 20px;
@@ -247,11 +275,12 @@ div li .select{
 .documentacion .btn{
     background-color: #DCD6CD;
     color: #0C3872;
+    border-color: #0C3872;
 }
 
 .documentacion .btn:hover{
     background-color: #0C3872;
-    color: #DCD6CD;
+    color: white;
 }
 
 .plani{
@@ -274,15 +303,18 @@ div li .select{
     font-size: 1.1rem;
 }
 
+.plani .lema{
+    font-size: 1.3rem;
+}
 
 .plani a:hover{
-    color: #0C3872;
+    color: rgb(73, 170, 230);
 }
 
 .legitima{
     padding: 20px;
     padding-block: 60px;
-    background-image: url("../assets/bg2.jpg");
+    background-image: url("../assets/0C3872\ \(4\).jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -317,6 +349,21 @@ div li .select{
     background-color: #EAEFF1;
 }
 
+.legitima .btn{
+    font-size: 1.2rem;
+    margin-top: 30px;
+    padding: 15px;
+    color:white;
+    background-color: #0C3872;
+    font-family: 'Poppins', sans-serif;
+}
+
+.legitima .btn:hover{
+    background-color: white;
+    color: #0C3872;
+    border-color: #0C3872;
+}
+
 .obj{
     padding: 20px;
     padding-block: 60px;
@@ -343,7 +390,7 @@ div li .select{
     padding: 20px;
     padding-block: 60px;
     color:#0C3872;
-    background-color: #EAEFF1;
+    background-color: #DCD6CD;
 }
 
 
@@ -382,13 +429,13 @@ div li .select{
 }
 
 .instrumentos .card-body{
-    background-image: url("../assets/bg5.png");
+    
     color: #C5D9EF;
 }
 
 
 .instrumentos .card-header:hover{
-    background-color:white;
+    background-color:#EAEFF1;
     color:#0C3872;
 }
 
@@ -617,7 +664,7 @@ div .dudas{
 .pago{
     color:#0C3872;
     padding: 20px;
-    background-image: url("../assets/bg2.jpg");
+    background-image: url("../assets/0C3872\ \(4\).jpg");
     padding-block: 60px;
 }
 
@@ -648,6 +695,7 @@ div .dudas{
 }
 
 div .gastos{
+    background-color:#EAEFF1;
     padding: 20px;
     padding-block: 60px;
 }
@@ -682,7 +730,7 @@ div .gastos{
 }
 
 .gastos .card-body{
-    background-color: #EAEFF1;
+    background-color: white;
 }
 
 .gastos .card-body:hover{
@@ -802,6 +850,22 @@ footer .numero{
     color: #0C3872;
 }
 
+footer i{
+    font-size: 25px;
+    text-align: center;
+    color: #0C3872;
+    background-color: #EAEFF1;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 35);
+    transition: .3s ease;
+}
+
+footer i:hover{
+    background-color: #DCD6CD;
+}
+
+
 .imgfooter{
     width: 25px;
     height: 25px;
@@ -815,8 +879,24 @@ footer .numero{
     background-color: white;
     margin-bottom: 0;
     padding: 20px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-block: 15px;
 }
 
+@keyframes show {
+    from {
+        scale: 80%;
+    }
+    to {
+        scale: 100%;
+    }
+}
 
+.card, .bloque2 img, p, .accordion{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 40%;
+}
