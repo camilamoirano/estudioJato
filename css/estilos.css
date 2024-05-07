@@ -152,7 +152,14 @@ div li .select{
 .bloque2 .btn{
     color: #0C3872;
     background-color: white;
+    border-color: #0C3872;
     padding-inline: 20px;
+}
+
+.bloque2 .btn:hover{
+    color: #0C3872;
+    background-color: #EAEFF1;
+    border-color: #0C3872;
 }
 
 .imgsucesiones img{
