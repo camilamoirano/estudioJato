@@ -795,9 +795,8 @@ div .contacto{
 }
 
 .contacto .card{
-    padding: 40px;
-
-    background-image: url('../assets/bg2.jpg');
+    padding: 20px;
+    background-color: white;
 }
 
 .contacto .card-header, .contacto .card-footer{
@@ -805,7 +804,7 @@ div .contacto{
 }
 
 .contacto .card-body{
-    background-color: white;
+    background-color:#DCD6CD;
 }
 .contacto h2{
     font-family: 'Poppins', sans-serif;
