@@ -874,7 +874,11 @@ footer i:hover{
 }
 
 footer img{
-    width: 33%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .imgfooter{
