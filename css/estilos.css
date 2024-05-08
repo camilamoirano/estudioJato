@@ -790,10 +790,23 @@ div .gastos{
 div .contacto{
     color:#082746;
     padding: 20px;
-    background-color: #EAEFF1;
+    background-image: url('../assets/bg2.jpg');
     padding-block: 60px;
 }
 
+.contacto .card{
+    padding: 80px;
+
+    background-image: url('../assets/bg2.jpg');
+}
+
+.contacto .card-header, .contacto .card-footer{
+    background-color: #0C3872;
+}
+
+.contacto .card-body{
+    background-color: white;
+}
 .contacto h2{
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
@@ -827,11 +840,9 @@ footer a{
     color: white;
 }
 
-footer .container{
-    width: 100%;
-}
 
 footer{
+    width: 100%;
     background-color: #0C3872;
     color: white;
     font-size: 1rem;
