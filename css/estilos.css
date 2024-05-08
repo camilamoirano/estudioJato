@@ -139,7 +139,7 @@ div li .select{
 
 .bloque2 .card{
     padding:10px;
-    background-image: url("../assets/0C3872\ \(4\).jpg");
+    background-image: url("../assets/bg2.jpg");
     width: 100%;
     margin: auto;
 }
@@ -188,7 +188,7 @@ div li .select{
 .etapas{
     padding: 20px;
     padding-block: 60px;
-    background-image: url("../assets/0C3872\ \(4\).jpg");
+    background-image: url("../assets/bg2.jpg");
     color:#0C3872;
     width: 100%;
 }
@@ -322,7 +322,7 @@ div li .select{
 .legitima{
     padding: 20px;
     padding-block: 60px;
-    background-image: url("../assets/0C3872\ \(4\).jpg");
+    background-image: url("../assets/bg2.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -672,7 +672,7 @@ div .dudas{
 .pago{
     color:#0C3872;
     padding: 20px;
-    background-image: url("../assets/0C3872\ \(4\).jpg");
+    background-image: url("../assets/bg2.jpg");
     padding-block: 60px;
 }
 
@@ -873,6 +873,10 @@ footer i:hover{
     background-color: #DCD6CD;
 }
 
+footer img{
+    width: 40%;
+    height: auto;
+}
 
 .imgfooter{
     width: 25px;
