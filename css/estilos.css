@@ -827,6 +827,10 @@ footer a{
     color: white;
 }
 
+footer .container{
+    width: 100%;
+}
+
 footer{
     background-color: #0C3872;
     color: white;
@@ -874,8 +878,9 @@ footer i:hover{
 }
 
 footer img{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
+    padding: 20px;
 }
 
 .imgfooter{
