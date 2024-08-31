@@ -834,6 +834,24 @@ div .contacto{
     padding-bottom: 40px;
 }
 
+.calendario{
+    padding-bottom: 40px;
+}
+
+.calendario .btn{
+    font-size: 1.2rem;
+    margin-top: 30px;
+    padding: 15px;
+    color:white;
+    background-color: #0C3872;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calendario .btn:hover{
+    background-color: white;
+    color: #0C3872;
+    border-color: #0C3872;
+}
 footer a{
     text-decoration: none;
     color: white;
